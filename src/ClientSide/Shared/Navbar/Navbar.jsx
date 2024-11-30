@@ -143,7 +143,7 @@ const Navbar = () => {
                     onClick={toggleDropdown2}
                     className="flex items-center w-full text-left px-0 xs:0 text-black hover:text-[#f6941e] focus:outline-none"
                   >
-                    Study Distention
+                    Study Destination
                     {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
                   </button>
                   {isDropdown2Open && (
@@ -280,7 +280,7 @@ const Navbar = () => {
                           : "text-black hover:text-[#f6941e]"
                       }`}
                     >
-                      Study Distention
+                      Study Destination
                       {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
                     </button>
 
