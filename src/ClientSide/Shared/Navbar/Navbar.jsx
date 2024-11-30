@@ -71,9 +71,12 @@ const Navbar = () => {
       {/* Fixed Navbar */}
       {/* mobile */}
       <nav
-        className={`lg:hidden relative fix  ${scrolled ? "hidden" : ""} ${
-          isHomePage ? "fixed-navbar" : "fixed-navbar"
-        }`}
+        className={`lg:hidden relative fix  ${scrolled ? "hidden" : ""} 
+        `}
+
+        // ${
+        //   isHomePage ? "fixed-navbar" : "fixed-navbar"
+        // }
       >
         <div className="navbarLeftRightSpace flex justify-between items-center bg-transparent font-helvetica font-normal">
           <div className="headerLogo ">
@@ -81,9 +84,9 @@ const Navbar = () => {
               <LazyLoadImage
                 className="h-full w-full "
                 src="https://i.ibb.co/7R7kn56/logo-66ced2cb8a688.webp"
-                style={{
-                  filter: "contrast(2.5) brightness(1.2)",
-                }}
+                // style={{
+                //   filter: "contrast(2.5) brightness(1.2)",
+                // }}
                 alt="brand logo"
               />
             </Link>
@@ -92,7 +95,7 @@ const Navbar = () => {
           <div className="h-[30px] ">
             <IoMenu
               className={`h-full w-full ${
-                isHomePage ? "text-white" : "text-black"
+                isHomePage ? "text-black" : "text-black"
               }`}
               onClick={handleMenu}
             ></IoMenu>
