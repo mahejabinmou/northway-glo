@@ -81,9 +81,9 @@ const Navbar = () => {
               <LazyLoadImage
                 className="h-full w-full "
                 src="https://i.ibb.co/7R7kn56/logo-66ced2cb8a688.webp"
-                // style={{
-                //   filter: "contrast(2.5) brightness(1.2)",
-                // }}
+                style={{
+                  filter: "contrast(2.5) brightness(1.2)",
+                }}
                 alt="brand logo"
               />
             </Link>

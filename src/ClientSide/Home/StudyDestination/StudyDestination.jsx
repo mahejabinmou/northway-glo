@@ -272,7 +272,7 @@ const StudyDestination = () => {
           {/* usa */}
           <div>
             <div
-              ref={boxRefs[5]}
+              //   ref={boxRefs[5]}
               className="relative group w-full h-[267px] pb-[20px]"
             >
               <LazyLoadImage
@@ -296,7 +296,7 @@ const StudyDestination = () => {
           {/* uk */}
           <div>
             <div
-              ref={boxRefs[2]}
+              //   ref={boxRefs[2]}
               className="relative group w-full h-[267px] pb-[20px]"
             >
               <LazyLoadImage
@@ -319,7 +319,7 @@ const StudyDestination = () => {
             {/* canada */}
 
             <div
-              ref={boxRefs[4]}
+              //   ref={boxRefs[4]}
               className=" relative group w-full h-[267px] pb-[20px]"
             >
               <LazyLoadImage
@@ -344,7 +344,7 @@ const StudyDestination = () => {
 
           <div>
             <div
-              ref={boxRefs[2]}
+              //   ref={boxRefs[2]}
               className="relative group w-full h-[267px] pb-[20px]"
             >
               <LazyLoadImage
@@ -368,7 +368,7 @@ const StudyDestination = () => {
           {/* Europe */}
           <div>
             <div
-              ref={boxRefs[3]}
+              //   ref={boxRefs[3]}
               className="relative group w-full h-[267px] pb-[20px]"
             >
               <LazyLoadImage
@@ -389,7 +389,7 @@ const StudyDestination = () => {
             </div>
 
             <div
-              ref={boxRefs[1]}
+              //   ref={boxRefs[1]}
               className="relative group w-full h-[267px] pb-[20px]"
             >
               <LazyLoadImage
@@ -411,7 +411,7 @@ const StudyDestination = () => {
 
             {/* china */}
             <div
-              ref={boxRefs[1]}
+              //   ref={boxRefs[1]}
               className="relative group w-full h-[267px] pb-[20px]"
             >
               <LazyLoadImage
@@ -433,7 +433,7 @@ const StudyDestination = () => {
 
             {/* Germany */}
             <div
-              ref={boxRefs[0]}
+              //   ref={boxRefs[0]}
               className="relative group w-full h-[267px] pb-[20px]"
             >
               <LazyLoadImage
