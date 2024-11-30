@@ -117,7 +117,11 @@ const StudyDestination = () => {
           // ref={sectionRef}
         >
           {/* usa */}
-          <div ref={boxRefs[6]} className="relative group w-full h-[267px] ">
+          <div
+            // ref={boxRefs[6]}
+
+            className="relative group w-full h-[267px] "
+          >
             <LazyLoadImage
               src="https://i.ibb.co.com/JkjRg9s/frame-18-2-66e0a3febd983.webp"
               alt="United States"
@@ -136,7 +140,10 @@ const StudyDestination = () => {
 
           {/* uk */}
 
-          <div ref={boxRefs[7]} className="relative group w-full h-[267px] ">
+          <div
+            // ref={boxRefs[7]}
+            className="relative group w-full h-[267px] "
+          >
             <LazyLoadImage
               src="/London.jpg"
               alt="United States"
@@ -154,7 +161,11 @@ const StudyDestination = () => {
           </div>
 
           {/* Canada */}
-          <div ref={boxRefs[13]} className="relative group w-full h-[267px] ">
+          <div
+            //  ref={boxRefs[13]}
+
+            className="relative group w-full h-[267px] "
+          >
             <LazyLoadImage
               src="/CanadaF.jpg"
               alt="United States"
@@ -172,7 +183,11 @@ const StudyDestination = () => {
           </div>
 
           {/* Australia */}
-          <div ref={boxRefs[8]} className="relative group w-full h-[267px] ">
+          <div
+            // ref={boxRefs[8]}
+
+            className="relative group w-full h-[267px] "
+          >
             <LazyLoadImage
               src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
               alt="United States"
@@ -190,7 +205,11 @@ const StudyDestination = () => {
           </div>
 
           {/* Europe */}
-          <div ref={boxRefs[11]} className="relative group w-full h-[267px]">
+          <div
+            // ref={boxRefs[11]}
+
+            className="relative group w-full h-[267px]"
+          >
             <LazyLoadImage
               src="https://i.ibb.co.com/GPmQbs2/ireland-6717714b87c95.webp"
               alt="United States"
@@ -209,7 +228,11 @@ const StudyDestination = () => {
 
           {/* Malaisia */}
 
-          <div ref={boxRefs[12]} className="relative group w-full h-[267px] ">
+          <div
+            // ref={boxRefs[12]}
+
+            className="relative group w-full h-[267px] "
+          >
             <LazyLoadImage
               src="/malaysiaStudy.webp"
               alt="United States"
@@ -226,7 +249,10 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div ref={boxRefs[10]} className=" relative group w-full h-[267px] ">
+          <div
+            // ref={boxRefs[10]}
+            className=" relative group w-full h-[267px] "
+          >
             <LazyLoadImage
               src="/chinaGreatWall.jpg"
               alt="United States"
@@ -243,7 +269,11 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div ref={boxRefs[9]} className="relative group w-full h-[267px] ">
+          <div
+            // ref={boxRefs[9]}
+
+            className="relative group w-full h-[267px] "
+          >
             <LazyLoadImage
               src="https://i.ibb.co.com/DzDqDPW/europ-671771c9cc68d.webp"
               alt="United States"
