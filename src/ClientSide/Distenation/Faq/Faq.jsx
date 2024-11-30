@@ -284,14 +284,14 @@ const Faq = ({ countryName }) => {
     2xl:px-[150px] 2xl:mt-[350px]"
     >
       <div className="flex 2xl:pt-[50px] sm:pt-[60px] md:pt-[60px] flex-col md:flex-row-reverse gap-x-[68px] items-center">
-        <div className="w-full md:w-1/2 h-[370px] lg:h-[506px] pb-[0px] lg:pb-0">
+        <div className="w-full md:w-[40%] h-[370px] lg:h-[406px] pb-[0px] lg:pb-0">
           <LazyLoadImage
-            className="w-full h-full"
+            className="w-full h-full bg-cover"
             src="https://i.ibb.co.com/0sc8rCK/faq-66dc00ae9d778.webp"
             alt="faqimage"
           />
         </div>
-        <div className="w-full md:w-1/2 p-2 ">
+        <div className="w-full md:w-[60%] p-2 ">
           <div className="py-0">
             <h1 className="faqHead leading-[36px] pb-[20px] text-[#1E1E1E] text-nowrap">
               Study in <br className="md:hidden block" />
