@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ChooseUs = () => {
   return (
-    <div className="  xs:mt-[100px] md:mt-[80px] lg:mt-[60px]  xl:mt-[100px]  2xl:mt-[100px]">
+    <div className="  xs:mt-[60px] md:mt-[80px] lg:mt-[60px]  xl:mt-[100px]  2xl:mt-[100px]">
       <div className="  ">
         <div className="relative">
           <div

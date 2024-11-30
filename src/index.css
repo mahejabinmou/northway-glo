@@ -19,7 +19,7 @@
   .sectionGap {
     @apply /* mt-[100px] px-[16px] */
     /* ======= */
-    xs:mt-[100px] xs:px-[16px]
+    xs:mt-[60px] xs:px-[16px]
     /* ======= */
     md:mt-[80px] md:px-[32px]
     /* ======= */

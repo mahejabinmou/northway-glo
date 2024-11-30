@@ -65,7 +65,7 @@ const PhotoGallery = () => {
         {/* Text Section */}
 
         <div className="absolute inset-0 flex flex-col items-center justify-center px-[20px]  text-left">
-          <h1 className="xs:text-5xl lg:text-[80px] text-white font-helvetica font-bold text-center">
+          <h1 className="xs:text-[45px]  lg:text-[80px] text-white font-helvetica font-bold text-center">
             Photo Gallery
           </h1>
         </div>

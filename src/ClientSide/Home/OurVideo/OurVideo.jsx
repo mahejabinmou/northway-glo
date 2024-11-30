@@ -62,8 +62,8 @@ const OurVideo = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 2,
+          slidesToShow: 3,
+          slidesToScroll: 1,
           // initialSlide: ,
           infinite: true,
 
@@ -144,7 +144,7 @@ const OurVideo = () => {
       {/* mobile */}
       <div className="lg:hidden block md:pb-[80px] pb-[20px] overflow-hidden">
         <div
-          className="relative bg-cover bg-center min-h-[263px] items-center bg-fixed mt-24"
+          className="relative bg-cover bg-center min-h-[263px] items-center bg-fixed mt-[60px] md:mt-[80px]"
           style={{
             backgroundImage: `url("https://i.ibb.co/R6Q4WKP/studentbg-66dbe8ed9b77d.webp")`,
           }}
