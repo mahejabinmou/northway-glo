@@ -88,7 +88,8 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <div className="h-[30px] -translate-x-[16px]">
+          {/* <div className="h-[30px] -translate-x-[16px]"> */}
+          <div className="h-[30px] ">
             <IoMenu
               className={`h-full w-full ${
                 isHomePage ? "text-white" : "text-black"

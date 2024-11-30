@@ -1376,7 +1376,7 @@ font-helvetica font-normal;
 
   /* ==================== whyChose us ============= */
   .chooseUsImgParent {
-    @apply h-[289px]   xl:h-[436px] md:h-[403px];
+    @apply h-[290px]   xl:h-[436px];
   }
 
   .chooseUsParent {
