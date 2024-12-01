@@ -64,9 +64,12 @@ const HeroSection = () => {
         stagger: 0.1,
         duration: 0.5,
         delay: 2.5,
+        repeat: -1, // This makes the animation loop infinitely
+        repeatDelay: 1, // Optional: Add a delay before repeating
       }
     );
   }, []);
+
   const welcomeMobileRef = useRef(null);
   const northwayMobileRef = useRef(null);
 

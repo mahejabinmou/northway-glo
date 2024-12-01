@@ -25,7 +25,15 @@ const Blogs = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/M7107nr/clay-banks-Hf8n0-RUk7g0-unsplash-1.webp"})`,
             filter: "brightness(.5)",
           }}
-          className="bg-no-repeat bg-left bg-cover w-[100%] h-[500px] flex justify-center items-center"
+          className="hidden md:block  bg-no-repeat  bg-center bg-cover w-[100%] h-[500px] flex justify-center items-center"
+        ></div>
+
+        <div
+          style={{
+            backgroundImage: `url(${"/blogBanner.webp"})`,
+            filter: "brightness(.5)",
+          }}
+          className="md:hidden block  bg-no-repeat  bg-left bg-cover w-[100%] h-[500px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}

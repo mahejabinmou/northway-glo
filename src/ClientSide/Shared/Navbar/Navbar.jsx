@@ -231,7 +231,7 @@ const Navbar = () => {
         <div
           className={`hidden  lg:block w-full z-50  GlobalBg  shadow-[0_-4px_15px_rgba(50,50,50,0.5),0_4px_15px_rgba(50,50,50,0.5)]`}
         >
-          <div className="largeScreenMenu !py-0 h-[100px] bg-transparent font-helvetica font-normal">
+          <div className="largeScreenMenu !py-0 h-[50px] bg-transparent font-helvetica font-normal">
             <div className="headerLogo">
               <Link to="/" onClick={() => setIsDropdown2Open(false)}>
                 <LazyLoadImage
@@ -393,7 +393,7 @@ const Navbar = () => {
 
             {/* Enquire Now Button */}
             <button
-              className="homeLargeAppoinMent hover:bg-[#F6941E] hover:text-black border border-[#F6941E] flex items-center justify-between text-[#F6941E] bg-white font-bold px-4 py-2 rounded"
+              className="navLargeAppoinMent hover:bg-[#F6941E] hover:text-black border border-[#F6941E] flex items-center justify-between text-[#F6941E] bg-white font-bold px-2 rounded"
               onClick={openModal}
             >
               Enquire Now <MdArrowRightAlt />

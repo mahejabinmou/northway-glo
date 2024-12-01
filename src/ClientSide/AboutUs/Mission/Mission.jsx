@@ -28,7 +28,7 @@ const Mission = () => {
 
   return (
     <section className="sectionGap pb-[50px] pt-[40px] md:pt-0">
-      <div className="WhyStudyParent mt-[50px]">
+      <div className="WhyStudyParent mt-[50px] ">
         <div
           ref={missionRef}
           className={`animated-section-ltr ${isVisible ? "visible" : ""}`}
@@ -36,7 +36,7 @@ const Mission = () => {
           <h1 className="chooseUsSamll text-white">
             <span className="text-[#F6941E]">Our</span> Mission
           </h1>
-          <p className="homePara pb-[25px] md:pb-[30px] lg:pb-[30px] xl:pb-[30px] text-white">
+          <p className="homePara pb-[25px] md:pb-[30px] lg:pb-[30px] xl:pb-[30px] text-white ">
             We aim to facilitate the smooth transition of students into new
             educational environments across the globe. Our mission is to provide
             support, resources, and guidance to ensure a successful migration

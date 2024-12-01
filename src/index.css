@@ -85,7 +85,7 @@ font-helvetica font-normal;
     /* ==== */
       md:text-[60px]      md:leading-[70px] 
      /* ==== */
-     lg:leading-[70px]  
+     lg:leading-[50px]  
       /* ==== */
     font-bold font-helvetica text-white;
   }
@@ -220,6 +220,17 @@ font-helvetica font-normal;
     lg:text-[16px] lg:py-[8px] lg:px-[16px]
     /* =========  */
     xl:text-[18px] xl:leading-[23px] xl:py-[13px] xl:px-[20px] 
+    /* =========  */
+    
+    font-helvetica font-bold bg-white text-white;
+  }
+
+  .navLargeAppoinMent {
+    @apply md:text-[16px]  py-1 gap-x-[4px]
+
+    lg:text-[14px] 
+    /* =========  */
+    xl:text-[16px] xl:leading-[23px]  
     /* =========  */
     
     font-helvetica font-bold bg-white text-white;
