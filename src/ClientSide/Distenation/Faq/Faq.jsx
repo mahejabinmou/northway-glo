@@ -297,7 +297,7 @@ const Faq = ({ countryName }) => {
               Study in <br className="md:hidden block" />
               <span className="text-[#F6941E]">{countryName} FAQ's</span>
             </h1>
-            <p className="font-normal md:text-[16px] md:leading-[24px] text-[14px] leading-[21px] text-[#1E1E1E]/[.8] pb-0 lg:pb-[30px]">
+            <p className="font-normal md:text-[16px] mb-[20px] md:leading-[24px] text-[14px] leading-[21px] text-[#1E1E1E]/[.8] pb-0 lg:pb-[30px]">
               Studying in the {countryName} can offer a variety of benefits,
               making it an attractive destination for international students.
               Here are some reasons why study in {countryName} is a popular
