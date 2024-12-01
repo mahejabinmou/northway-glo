@@ -4,10 +4,10 @@ const ServiceHero = () => {
       {/* Background image section */}
       <div
         style={{
-          backgroundImage: `url(${"/Our-services.jpg"})`,
+          backgroundImage: `url(${"/servicePAge.jpg"})`,
           filter: "brightness(.5)",
         }}
-        className="bg-no-repeat  bg-right lg:bg-center bg-cover w-[100%] h-[485px] flex justify-center items-center"
+        className="bg-no-repeat  bg-right lg:bg-center bg-cover w-[100%] h-[500px] flex justify-center items-center"
       ></div>
 
       {/* Text Section */}

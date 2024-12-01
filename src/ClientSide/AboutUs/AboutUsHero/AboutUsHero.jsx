@@ -11,12 +11,12 @@ const AboutUsHero = () => {
             backgroundImage: `url(${"/About-Us-2.jpg"})`,
             filter: "brightness(.7) ",
           }}
-          className="bg-no-repeat bg-center bg-cover w-[100%] h-[485px]  flex justify-center items-center"
+          className="bg-no-repeat bg-center bg-cover w-[100%] h-[500px]  flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
         <div className="absolute inset-0 flex justify-center items-center  px-[60px]  gap-y-[20px] lg:px-[150px] text-center">
-          <h1 className=" lg:text-[80px]  text-white font-helvetica font-bold ">
+          <h1 className=" text-[80px]  text-white font-helvetica font-bold ">
             About Us
           </h1>
         </div>

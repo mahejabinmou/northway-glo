@@ -23,7 +23,7 @@ const Footer = () => {
   );
   return (
     // bg-[#1E1E1E]
-    <div className=" bg-[#F6941E]/[.25] text-black sectionGap">
+    <div className=" bg-[#F6941E]/[.25] text-black sectionGap relative">
       {/* foooter content */}
       <div className=" pt-[50px]">
         {/* mobile */}
@@ -464,13 +464,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="border-1 border-white/[.1]" />
+        <hr className="border-1 border-black absolute inset-x-0" />
         <div className="py-[25px] px-[30px] 2xl:py-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] text-center">
           <div
             className="flex justify-center items-center space-x-[40px]
           "
           >
-            <p className="footerMenuText ">
+            <p className="footerMenuText  ">
               Designed and Developed By
               <span>
                 <Link

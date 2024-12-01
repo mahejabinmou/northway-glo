@@ -25,7 +25,7 @@ const Blogs = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/M7107nr/clay-banks-Hf8n0-RUk7g0-unsplash-1.webp"})`,
             filter: "brightness(.5)",
           }}
-          className="bg-no-repeat bg-left bg-cover w-[100%] h-[485px] flex justify-center items-center"
+          className="bg-no-repeat bg-left bg-cover w-[100%] h-[500px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}

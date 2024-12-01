@@ -16,7 +16,7 @@ const DistenationBanner = ({ countryName }) => {
             filter: "brightness(.5) ",
             backgroundPosition: "right",
           }}
-          className="bg-no-repeat bg-center bg-cover w-[100%] h-[485px]  flex justify-center items-center"
+          className="bg-no-repeat bg-center bg-cover w-[100%] h-[500px]  flex justify-center items-center"
         ></div>
 
         {/* Text Section */}

@@ -33,7 +33,7 @@ const VideoGallery = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/sJnd3yC/woman-wearing-lanyard-is-standing-front-building-1.webp"})`,
             filter: "brightness(.6)",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] h-[485px] flex justify-center items-center"
+          className="bg-no-repeat bg-top bg-cover w-[100%] h-[500px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}

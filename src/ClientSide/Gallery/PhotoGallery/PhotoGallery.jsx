@@ -59,7 +59,7 @@ const PhotoGallery = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/HpJMVbW/students-back-school-2024-beautiful-school-buildings-2.webp"})`,
             filter: "brightness(.5)",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] h-[485px] flex justify-center items-center"
+          className="bg-no-repeat bg-top bg-cover w-[100%] h-[500px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
