@@ -54,12 +54,12 @@ const CostOfEducation = ({ countryName }) => {
           </div>
 
           <div>
-            <h1 className="chooseUsSamll">
+            <h1 className="chooseUsSamll pb-[20px]">
               {" "}
               <span className="text-[#F6941E]">Cost </span>of education
             </h1>
 
-            <p className="chooseUsParaText text-black/[0.8]">
+            <p className="chooseUsParaText text-black/[0.8] pb-[20px]">
               {countryDetails.destensionCost}
             </p>
 

@@ -28,7 +28,7 @@ const Vision = () => {
   }, []);
 
   return (
-    <section className="sectionGap pb-[70px]">
+    <section className=" pb-[70px] pt-[50px] md:pt-0">
       <div className="WhyStudyParent mt-[-75px]">
         <div
           ref={visionRef}

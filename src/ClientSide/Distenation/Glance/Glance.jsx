@@ -47,7 +47,9 @@ const Glance = ({ countryName }) => {
     <div className=" ">
       <h1
         className="font-bold lg:text-[48px] lg:leading-[57px]
-                font-helvetica text-[30px] leading-[36px] text-[#1E1E1E] mb-[30px] mt-[60px] text-center"
+                font-helvetica text-[30px] leading-[36px] text-[#1E1E1E] mb-[30px] md:mb-[40px] text-center 
+                  xs:mt-[60px]  md:mt-[80px]  lg:mt-[80px]  xl:mt-[100px]   2xl:mt-[100px]
+                "
       >
         <span className="text-[#F6941E] ">{countryName}</span> At a Glance
       </h1>

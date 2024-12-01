@@ -91,7 +91,7 @@ const StudentSpeak = () => {
           <div className="absolute inset-0 bg-black opacity-80"></div>
           <div>
             <div className="xl:mx-[432px]  lg:mx-[200px]  text-center py-8 z-10 relative text-white translate-y-[50px]">
-              <h1 className="font-bold font-helvetica text-[48px] leading-[57.6px] ">
+              <h1 className="font-bold font-helvetica text-[48px] leading-[57.6px] pb-[20px]">
                 Student <span className="text-[#F6941E]">Speaks</span>
               </h1>
               <p className="font-normal text-[16px] leading-[24px] text-white/[.8]">

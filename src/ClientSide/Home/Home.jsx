@@ -57,7 +57,7 @@ const Home = () => {
     <div className="GlobalBg">
       <HeroSection></HeroSection>
       <About></About>
-      <div className="relative sm:flex sm:flex-wrap ">
+      <div className="relative sm:flex sm:flex-wrap  sectionGap">
         {/* Background Image */}
         <div
           className="absolute inset-0 "
@@ -72,7 +72,7 @@ const Home = () => {
         />
 
         {/* Content */}
-        <div className="relative z-10">
+        <div className=" z-10">
           <Mission />
           <Vision />
         </div>

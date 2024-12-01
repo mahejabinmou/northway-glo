@@ -110,7 +110,11 @@ const WhoAreU = () => {
 
       {/* large screen */}
       <div className="sectionGap hidden md:block">
-        <div className="chooseUsParent ">
+        <div
+          className="grid grid-cols-2 justify-center items-center md:gap-x-[40px] 
+    lg:gap-x-[50px] 
+     xl:gap-x-[150px]"
+        >
           <div>
             <div
               className="relative w-full overflow-hidden chooseUsImgParent"
@@ -187,12 +191,12 @@ const WhoAreU = () => {
           </div>
 
           <div>
-            <h1 className="chooseUsSamll">
+            <h1 className="chooseUsSamll pb-[20px]">
               {" "}
               <span className="text-[#F6941E]">Who </span>We Are
             </h1>
 
-            <p className="chooseUsParaText text-[#1E1E1E]/[0.8]">
+            <p className="chooseUsParaText text-[#1E1E1E]/[0.8] pb-[35px]">
               Discover the game-changer for Canadian Institutes: Edu Mandate!
               Our Indian-rooted strategy connects institutes with top agencies,
               fueled by human interaction and relentless expansion. With

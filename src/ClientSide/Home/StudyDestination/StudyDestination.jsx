@@ -75,7 +75,7 @@ const StudyDestination = () => {
   }, []);
 
   return (
-    <div className="sectionGap overflow-hidden" ref={sectionRef}>
+    <div className="sectionGap overflow-hidden">
       {/* header for mobile */}
       <div className="md:hidden block ">
         <h1 className="text-[#1E1E1E] chooseUsSamll xs:pb-[20px]  text-center">

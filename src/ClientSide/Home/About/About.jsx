@@ -177,7 +177,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="xl:mb-[82px] lg:mb-[60px] md:mb-[125px]">
+          <div className="xl:mb-[82px] lg:mb-[0px] md:mb-[0px]">
             <h1 className="chooseUsSamll md:pt-[57px] md:pb-[20px] lg:pt-[0px] lg:pb-[25px] xl:pt-[0px]  xl:pb-[16px]">
               <span className="text-[#F6941E]">About</span> Us
             </h1>

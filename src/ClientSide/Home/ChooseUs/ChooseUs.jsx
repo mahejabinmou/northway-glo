@@ -15,10 +15,10 @@ const ChooseUs = () => {
           ></div>
 
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center ">
-            <h1 className="ChooseUsHead">
+            <h1 className="ChooseUsHead ">
               Choose from 11+ University and College Scholarships
             </h1>
-            <p className="ChooseUsPara text-white">
+            <p className="ChooseUsPara text-white max-w-[1000px] mx-auto">
               Explore numerous opportunities to further your education and
               career with our partner universities and colleges. Our dedicated
               team will guide you through the process of applying for

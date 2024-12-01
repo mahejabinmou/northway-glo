@@ -57,7 +57,7 @@ const OurService = () => {
       </div>
 
       {/* large */}
-      <div className="hidden md:block  sectionGap pb-0 2xl:pb-[80px]  pt-[50px] bg-[#F6941E]/[.4]">
+      <div className="hidden md:block  sectionGap pb-0 2xl:pb-[50px]  pt-[50px] bg-[#F6941E]/[.4]">
         <div
           className="text-center 
       "

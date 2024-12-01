@@ -1513,14 +1513,17 @@ font-helvetica font-normal;
   }
 
   .ChooseUsPara {
-    @apply px-[16px] xs:px-[16px] md:px-[100px] lg:px-[180px]  xl:px-[449px] mt-[15px] 
-   text-[14px]  leading-[21px]  
-       xs:text-[14px] xs:leading-[21px] 
-     xl:text-[16px] xl:leading-[24px]     
+    @apply xs:px-[16px] md:px-[100px] 
+    /* px-[16px]  lg:px-[180px]  xl:px-[449px]  */
+    mt-[15px] 
+   text-[16px]  leading-[21px]  
+       xs:text-[16px] xs:leading-[21px] 
+     xl:text-[18px] xl:leading-[28px]     
      lg:leading-[24px]   
-    md:text-[16px] md:leading-[24px]   
+    md:text-[18px] md:leading-[28px]   
     font-helvetica font-normal;
   }
+
   .joinUsBtn {
     @apply text-[#F6941E] bg-white px-[16px] py-[11.5px] 
   
@@ -2121,7 +2124,7 @@ font-helvetica font-normal;
   transform: translateX(60%);
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .animated-section-ltr,
   .animated-section-ltr.visible {
     transform: translateX(0%);

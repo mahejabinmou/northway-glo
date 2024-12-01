@@ -27,8 +27,8 @@ const Mission = () => {
   }, []);
 
   return (
-    <section className="sectionGap">
-      <div className="WhyStudyParent pt-[70px]">
+    <section className="sectionGap pb-[50px] pt-[40px] md:pt-0">
+      <div className="WhyStudyParent mt-[50px]">
         <div
           ref={missionRef}
           className={`animated-section-ltr ${isVisible ? "visible" : ""}`}

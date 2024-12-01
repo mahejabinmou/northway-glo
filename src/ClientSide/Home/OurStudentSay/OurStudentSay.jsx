@@ -62,10 +62,10 @@ const OurStudentSay = () => {
       </div>
       {/* large */}
       <div className="hidden md:block text-center">
-        <h1 className="mainHeader  pb-[10px] ">
+        <h1 className="mainHeader  pb-[10px] md:pb-[20px]">
           <span className="text-[#F6941E] ">What’s</span> Our student say
         </h1>
-        <p className="mainPara text-[#1E1E1E]/[.8] max-w-[800px] mx-auto pb-[30px] font-helvetica font-normal">
+        <p className="mainPara text-[#1E1E1E]/[.8] max-w-[800px] mx-auto pb-[30px] md:pb-[40px] font-helvetica font-normal">
           Our students have shared their incredible journeys and successes, from
           gaining admissions to top universities to receiving life-changing
           scholarships. Hear directly from them about how our dedicated support
