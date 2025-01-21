@@ -4,11 +4,11 @@ const ShowMembers = ({ members }) => {
 	return (
 		<div className="flex flex-wrap -m-4">
 			{members.map((member) => (
-				<div key={member.id} className="p-4 lg:w-1/2">
+				<div key={member.id} className="p-4 lg:w-1/2 2xl:w-1/3">
 					<div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
 						<img
 							alt={member.name}
-							className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+							className="flex-shrink-0 rounded-lg w-52 h-56 object-cover object-center sm:mb-0 mb-4"
 							src={member.image}
 						/>
 						<div className="flex-grow sm:pl-8">
@@ -16,7 +16,9 @@ const ShowMembers = ({ members }) => {
 								{member.name}
 							</h2>
 							<h3 className="text-gray-500 mb-3">{member.designation}</h3>
-							<p className="mb-4">{member.description}</p>
+							<p className="mb-4 homePara text-[#1E1E1E]/[0.5]">
+								{member.description}
+							</p>
 							<span className="inline-flex">
 								<a
 									href={member.facebookLink}

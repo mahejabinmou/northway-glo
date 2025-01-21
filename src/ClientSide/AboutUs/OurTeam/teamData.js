@@ -1,7 +1,7 @@
 export const advisoryBoardMembers = [
 	{
 		id: 1,
-		image: "https://dummyimage.com/200x200",
+		image: "https://dummyimage.com/415x530",
 		name: "Dr. Anam Dar",
 		designation: "Head of Business and Law School",
 		degree: "University of Law",
@@ -13,7 +13,7 @@ export const advisoryBoardMembers = [
 	},
 	{
 		id: 2,
-		image: "https://dummyimage.com/200x200",
+		image: "https://dummyimage.com/415x530",
 		name: "Professor Nazrul Islam",
 		designation: "Ph.D in Innovation Management",
 		degree: "M.Eng in CE, MSc in CT",
@@ -28,7 +28,7 @@ export const advisoryBoardMembers = [
 export const executiveBoardMembers = [
 	{
 		id: 1,
-		image: "https://dummyimage.com/200x200",
+		image: "https://dummyimage.com/415x530",
 		name: "Dr. Mohammad Shafiq",
 		designation: "Director",
 		degree: "",
@@ -40,7 +40,7 @@ export const executiveBoardMembers = [
 	},
 	{
 		id: 2,
-		image: "https://dummyimage.com/200x200",
+		image: "https://dummyimage.com/415x530",
 		name: "S M Saiful Islam",
 		designation: "Head of Operations (BD)",
 		degree: "",
@@ -52,7 +52,7 @@ export const executiveBoardMembers = [
 	},
 	{
 		id: 3,
-		image: "https://dummyimage.com/200x200",
+		image: "https://dummyimage.com/415x530",
 		name: "Valentina Bouzo",
 		designation: "Head of Operations (UK)",
 		degree: "",
@@ -64,7 +64,7 @@ export const executiveBoardMembers = [
 	},
 	{
 		id: 4,
-		image: "https://dummyimage.com/200x200",
+		image: "https://dummyimage.com/415x530",
 		name: "Isabella Micu",
 		designation: "Business Development and Partnership Management (UK)",
 		degree: "",
@@ -76,7 +76,7 @@ export const executiveBoardMembers = [
 	},
 	{
 		id: 5,
-		image: "https://dummyimage.com/200x200",
+		image: "https://dummyimage.com/415x530",
 		name: "Bickey Kumar Shah",
 		designation: "Country Director (Nepal)",
 		degree: "",
