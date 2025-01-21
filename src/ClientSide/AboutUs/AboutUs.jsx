@@ -12,9 +12,10 @@ const AboutUs = () => {
 		<div className="bg-[#F5F5F5]">
 			<AboutUsHero></AboutUsHero>
 			<WhoAreU></WhoAreU>
-
 			<OurTeam />
 			<OurService></OurService>
+
+			{/* mission/vision wrapper start */}
 			<div className="relative sm:flex sm:flex-wrap mt-[90px] h-auto 2xl:h-[700px]">
 				{/* Background Image */}
 				<div
@@ -32,8 +33,9 @@ const AboutUs = () => {
 					<Vision />
 				</div>
 			</div>
+			{/* mission/vision wrapper end */}
+
 			<OurStudentSay></OurStudentSay>
-			{/* Here you new component for mission and vision */}
 			<Footer></Footer>
 		</div>
 	);
