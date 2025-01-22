@@ -26,7 +26,6 @@ const AboutUs = () => {
 						filter: "brightness(0.75)",
 					}}
 				/>
-
 				{/* Content */}
 				<div className="relative z-10 flex flex-col justify-center items-center">
 					<Mission />

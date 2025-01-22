@@ -4,21 +4,24 @@ const ShowMembers = ({ members }) => {
 	return (
 		<div className="flex flex-wrap -m-4">
 			{members.map((member) => (
-				<div key={member.id} className="p-4 lg:w-1/2 2xl:w-1/3">
-					<div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+				<div key={member.id} className="p-4 w-full md:w-1/2 lg:w-1/4 2xl:w-1/6">
+					<div className="h-full flex flex-col items-center text-center">
 						<img
 							alt={member.name}
-							className="flex-shrink-0 rounded-lg w-52 h-56 object-cover object-center sm:mb-0 mb-4"
+							className="flex-shrink-0 rounded-lg w-56 h-64 xl:w-64 xl:h-72 object-cover object-center mb-4"
 							src={member.image}
 						/>
-						<div className="flex-grow sm:pl-8">
-							<h2 className="title-font font-medium text-lg text-gray-900">
+						<div className="w-full">
+							<h2 className="font-medium text-lg text-gray-900">
 								{member.name}
 							</h2>
 							<h3 className="text-gray-500 mb-3">{member.designation}</h3>
-							<p className="mb-4 homePara text-[#1E1E1E]/[0.5]">
+
+							{/* no need of descriptions right now */}
+							{/* <p className="mb-4 homePara text-[#1E1E1E]/[0.5]">
 								{member.description}
-							</p>
+							</p> */}
+
 							<span className="inline-flex">
 								<a
 									href={member.facebookLink}
