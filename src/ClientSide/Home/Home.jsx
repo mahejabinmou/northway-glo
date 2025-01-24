@@ -19,26 +19,26 @@ const Home = () => {
 		<div className="GlobalBg">
 			<HeroSection></HeroSection>
 			<About></About>
-			<div className="relative sm:flex sm:flex-wrap  sectionGap">
+
+			{/* mission/vision wrapper start */}
+			<div className="relative sm:flex sm:flex-wrap mt-[90px] h-auto 2xl:h-[700px]">
 				{/* Background Image */}
 				<div
-					className="absolute inset-0 "
+					className="absolute inset-0 bg-cover object-center"
 					style={{
 						backgroundImage:
 							"url('/businessman-walking-up-stairs-modern-cityscape-sunset-with-reflective-glass-buildings.jpg')",
-						backgroundSize: "cover",
-						backgroundPosition: "center",
-						backgroundRepeat: "no-repeat",
 						filter: "brightness(0.75)",
 					}}
 				/>
-
 				{/* Content */}
-				<div className=" z-10">
+				<div className="relative z-10 flex flex-col justify-center items-center">
 					<Mission />
 					<Vision />
 				</div>
 			</div>
+			{/* mission/vision wrapper end */}
+
 			<OurService></OurService>
 			<ChooseUs></ChooseUs>
 			<StudyDestination></StudyDestination>

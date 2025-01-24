@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const ShowMembers = ({ members }) => {
 	return (
-		<div className="flex flex-wrap -m-4">
+		<div className="flex flex-wrap justify-center -m-4">
 			{members.map((member) => (
 				<div key={member.id} className="p-4 w-full md:w-1/2 lg:w-1/4 2xl:w-1/6">
 					<div className="h-full flex flex-col items-center text-center">

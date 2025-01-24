@@ -10,15 +10,18 @@ const OurTeam = () => {
 						<span className="text-[#F6941E]"> Our {""} </span> {""} {""}
 						<span className="text-[#1E1E1E]">Team</span>
 					</h1>
-					<p className="homePara text-[#1E1E1E]/[0.8] xs:pb-[30px] md:pb-[30px] xl:pb-[30px] lg:pb-[30px] flex items-center justify-center max-w-[750px] mx-auto">
+					<p className="homePara text-[#1E1E1E]/[0.8] xs:pb-[30px] md:pb-[30px] xl:pb-[30px] lg:pb-[30px] flex items-center justify-center mx-auto">
 						Meet our amazing team members who bring everything together.
 					</p>
 				</div>
-				<div className="mb-40">
-					<h2 className="font-bold text-[24px] text-[#1E1E1E] mb-2">
+				<div className="mb-28 2xl:mb-20">
+					<h2 className="font-bold text-[24px] text-center text-[#1E1E1E] mb-2">
 						Advisory Board Members
 					</h2>
-					<p className="homePara text-[#1E1E1E]/[0.8] mb-10 max-w-[90%] md:max-w-[65%] lg:max-w-[45%]">
+
+					{/* max-w-[90%] md:max-w-[65%] lg:max-w-[45%] */}
+
+					<p className="homePara text-[#1E1E1E]/[0.8] xs:pb-[30px] md:pb-[30px] xl:pb-[30px] lg:pb-[30px] flex items-center justify-center mx-auto">
 						Our advisory board members play a crucial role in guiding our
 						organization towards it&apos;s mission of empowering students
 						through educational scholarships.
@@ -26,10 +29,10 @@ const OurTeam = () => {
 					<ShowMembers members={advisoryBoardMembers} />
 				</div>
 				<div>
-					<h2 className="font-bold text-[24px] text-[#1E1E1E] mb-2">
+					<h2 className="font-bold text-[24px] text-center text-[#1E1E1E] mb-2">
 						Executive Board Members
 					</h2>
-					<p className="homePara text-[#1E1E1E]/[0.8] mb-10 max-w-[90%] md:max-w-[65%] lg:max-w-[45%]">
+					<p className="homePara text-[#1E1E1E]/[0.8] text-center mb-10">
 						Our executive board members play a pivotal role in shaping the
 						direction of our scholarship programs and ensuring their success.
 					</p>
