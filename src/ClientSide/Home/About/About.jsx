@@ -134,7 +134,6 @@ const About = () => {
 									className="absolute top-0 left-0 w-full h-full aspect-video"
 									src="https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0&autoplay=1"
 									title="YouTube video player"
-									frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 									allowFullScreen
 								></iframe>
@@ -147,12 +146,12 @@ const About = () => {
 										src="https://img.youtube.com/vi/THi7JpVDyCE/hqdefault.jpg"
 										alt="youtube thumbnail"
 										loading="lazy"
-										className="w-full h-full object-cover"
+										className="w-full h-full aspect-video"
 									/>
 									<LazyLoadImage
 										src="/Polygon 3.png"
 										alt="play icon"
-										className="absolute top-1/2 left-1/2 -translate-x-1/2"
+										className="absolute top-1/3 2xl:top-1/2 left-1/2"
 									/>
 								</div>
 							)}
