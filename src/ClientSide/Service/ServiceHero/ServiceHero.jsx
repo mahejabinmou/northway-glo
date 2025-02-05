@@ -5,15 +5,15 @@ const ServiceHero = () => {
 			<div
 				style={{
 					backgroundImage: `url(${"/service-banner.png"})`,
-					filter: "brightness(.5)",
+					// filter: "brightness(.5)",
 				}}
 				className="bg-no-repeat  bg-right lg:bg-center bg-cover w-[100%] h-[500px] flex justify-center items-center"
 			></div>
 
 			{/* Text Section */}
 			<div className="absolute inset-0 flex flex-col  justify-center px-[20px] lg:px-[10vw]">
-				<h1 className="xs:text-5xl lg:text-[80px] text-white font-helvetica font-bold ">
-					Service
+				<h1 className="xs:text-5xl lg:text-[80px] text-black font-helvetica font-bold ">
+					<span className="text-primaryColor">Service</span>
 				</h1>
 			</div>
 		</div>

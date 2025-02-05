@@ -124,8 +124,8 @@ const Navbar = () => {
 									<li
 										className={` ${
 											isHomePage
-												? "text-[#F6941E] hover:text-[#F6941E]"
-												: "text-black hover:text-[#F6941E]"
+												? "text-primaryColor hover:text-primaryColor"
+												: "text-black hover:text-primaryColor"
 										}`}
 									>
 										Home
@@ -134,7 +134,7 @@ const Navbar = () => {
 								<Link to="/About">
 									<li
 										className={` ${
-											isAboutPage ? "text-[#f6941e]" : "text-black"
+											isAboutPage ? "text-primaryColor" : "text-black"
 										}`}
 									>
 										About Us
@@ -144,7 +144,7 @@ const Navbar = () => {
 								<li className="relative">
 									<button
 										onClick={toggleDropdown2}
-										className="flex items-center w-full text-left px-0 xs:0 text-black hover:text-[#f6941e] focus:outline-none"
+										className="flex items-center w-full text-left px-0 xs:0 text-black hover:text-primaryColor focus:outline-none"
 									>
 										Study Destination
 										{isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
@@ -162,17 +162,17 @@ const Navbar = () => {
 								<li className="relative">
 									<button
 										onClick={toggleDropdown}
-										className="flex items-center w-full text-left px-0 xs:pb-0 text-black hover:text-[#f6941e] focus:outline-none"
+										className="flex items-center w-full text-left px-0 xs:pb-0 text-black hover:text-primaryColor focus:outline-none"
 									>
 										Gallery
 										{isDropdownOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
 									</button>
 									{isDropdownOpen && (
-										<ul className=" mt-2 mb-2 min-w-[150px] bg-[#F6941E]/[.2] text-black rounded shadow-lg">
+										<ul className=" mt-2 mb-2 min-w-[150px] bg-primaryColor/[.2] text-black rounded shadow-lg">
 											<Link to="/photo-gallery">
 												<li
 													className={`px-4 py-[5px] ${
-														isPhotoGallery ? "text-[#F6941E]" : "text-black"
+														isPhotoGallery ? "text-primaryColor" : "text-black"
 													}`}
 												>
 													Photo Gallery
@@ -181,7 +181,7 @@ const Navbar = () => {
 											<Link to="/video-gallery">
 												<li
 													className={`px-4 pb-[5px] ${
-														isVideoGallery ? "text-[#F6941E]" : "text-black"
+														isVideoGallery ? "text-primaryColor" : "text-black"
 													}`}
 												>
 													Video Gallery
@@ -194,7 +194,7 @@ const Navbar = () => {
 								<Link to="/service">
 									<li
 										className={` ${
-											isServicePage ? "text-[#f6941e]" : "text-black"
+											isServicePage ? "text-primaryColor" : "text-black"
 										}`}
 									>
 										Service
@@ -204,7 +204,7 @@ const Navbar = () => {
 								<Link to="/blogs">
 									<li
 										className={` ${
-											isBlogsPage ? "text-[#f6941e]" : "text-black"
+											isBlogsPage ? "text-primaryColor" : "text-black"
 										}`}
 									>
 										Blogs
@@ -214,7 +214,7 @@ const Navbar = () => {
 								<Link to="/contactUs">
 									<li
 										className={` ${
-											isContactPage ? "text-[#f6941e]" : "text-black"
+											isContactPage ? "text-primaryColor" : "text-black"
 										}`}
 									>
 										Contact us
@@ -248,8 +248,8 @@ const Navbar = () => {
 									<li
 										className={` ${
 											isHomePage
-												? "text-[#F6941E] hover:text-[#F6941E]"
-												: "text-black hover:text-[#F6941E]"
+												? "text-primaryColor hover:text-primaryColor"
+												: "text-black hover:text-primaryColor"
 										}`}
 									>
 										Home
@@ -262,7 +262,7 @@ const Navbar = () => {
 											isHomePage
 												? "text-black"
 												: isAboutPage
-												? "text-[#f6941e]"
+												? "text-primaryColor"
 												: "text-black"
 										}`}
 									>
@@ -279,8 +279,8 @@ const Navbar = () => {
 										<button
 											className={`flex items-center lg:gap-x-[4px] ${
 												isHomePage
-													? "text-black hover:text-[#f6941e]"
-													: "text-black hover:text-[#f6941e]"
+													? "text-black hover:text-primaryColor"
+													: "text-black hover:text-primaryColor"
 											}`}
 										>
 											Study Destination
@@ -316,8 +316,8 @@ const Navbar = () => {
 											// } // Toggle dropdown on click
 											className={`flex items-center gap-x-[4px] ${
 												isHomePage
-													? "text-black hover:text-[#f6941e]"
-													: "text-black hover:text-[#f6941e]"
+													? "text-black hover:text-primaryColor"
+													: "text-black hover:text-primaryColor"
 											}`}
 										>
 											Gallery
@@ -327,17 +327,17 @@ const Navbar = () => {
 										{/* Dropdown Menu */}
 										<div>
 											<div
-												className={`absolute opacity-0 invisible none top-full left-0 w-[200px] bg-[#f6941e]/[.75] rounded shadow-lg transition-all duration-300 ease-in-out transform mt-[42px] ${
+												className={`absolute opacity-0 invisible none top-full left-0 w-[200px] bg-primaryColor/[.75] rounded shadow-lg transition-all duration-300 ease-in-out transform mt-[42px] ${
 													isDropdown2Open
 														? "opacity-100 translate-y-0"
 														: "opacity-0 translate-y-4"
 												} group-hover:opacity-100 group-hover:translate-y-0 z-10 group-hover:visible`}
 											>
 												<ul className="text-black">
-													<li className="px-4 py-2 hover:bg-white hover:text-[#f6941e]">
+													<li className="px-4 py-2 hover:bg-white hover:text-primaryColor">
 														<Link to="/photo-gallery">Photo Gallery</Link>
 													</li>
-													<li className="px-4 py-2 hover:bg-white hover:text-[#f6941e]">
+													<li className="px-4 py-2 hover:bg-white hover:text-primaryColor">
 														<Link to="/video-gallery">Video Gallery</Link>
 													</li>
 												</ul>
@@ -393,7 +393,7 @@ const Navbar = () => {
 
 						{/* Enquire Now Button */}
 						<button
-							className="navLargeAppoinMent hover:bg-[#F6941E]/[.75] hover:text-black border border-[#F6941E] flex items-center justify-between text-[#F6941E] bg-white font-bold px-2 rounded"
+							className="navLargeAppoinMent hover:bg-primaryColor/[.75] hover:text-black border border-primaryColor flex items-center justify-between text-primaryColor bg-white font-bold px-2 rounded"
 							onClick={openModal}
 						>
 							Enquire Now <MdArrowRightAlt />

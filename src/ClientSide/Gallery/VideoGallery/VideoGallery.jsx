@@ -31,15 +31,15 @@ const VideoGallery = () => {
 				<div
 					style={{
 						backgroundImage: `url(${"/video-gallery-banner.png"})`,
-						filter: "brightness(.6)",
+						// filter: "brightness(.6)",
 					}}
 					className="bg-no-repeat bg-top bg-cover w-[100%] h-[500px] flex justify-center items-center"
 				></div>
 
 				{/* Text Section */}
 				<div className="absolute inset-0 flex flex-col justify-center px-[20px] lg:px-[10vw]">
-					<h1 className="xs:text-5xl lg:text-[80px] text-white font-helvetica font-bold ">
-						Video Gallery
+					<h1 className="xs:text-5xl lg:text-[80px] text-black font-helvetica font-bold ">
+						<span className="text-primaryColor">Video</span> Gallery
 					</h1>
 					{/* <p className="text-xl 2xl:text-2xl lg:text-base text-white mt-2 lg:mt-0 font-medium font-helvetica">
             We strive to build a global community where quality higher education
@@ -77,8 +77,8 @@ const VideoGallery = () => {
 					</div>
 
 					<button
-						className="flex justify-center items-center hover:bg-[#F6941E] hover:text-white mx-auto mt-[50px]
-            border border-[#F6941E] text-[#F6941E] font-helvetica
+						className="flex justify-center items-center hover:bg-primaryColor hover:text-white mx-auto mt-[50px]
+            border border-primaryColor text-primaryColor font-helvetica
              font-bold text-[18px] leading-[23px] py-[13px] px-[20px]"
 						onClick={() => setShowAll(!showAll)} // Step 3: Toggle between showing all and limited images
 					>

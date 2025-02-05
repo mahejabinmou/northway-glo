@@ -66,7 +66,7 @@ font-helvetica font-normal;
               /* ========== */
               md:text-[20px] md:leading-[20px] text-center pb-[5px] 
               /* ========== */
-               text-[#F6941E] font-bold font-helvetica;
+               text-primaryColor font-bold font-helvetica;
 	}
 
 	.para80 {
@@ -1465,7 +1465,7 @@ font-helvetica font-normal;
               /* ========== */
               md:text-[20px] md:leading-[20px] text-center pb-[5px] 
               /* ========== */
-               text-[#F6941E] font-bold font-helvetica;
+               text-primaryColor font-bold font-helvetica;
 	}
 
 	.para80 {
@@ -1537,9 +1537,9 @@ font-helvetica font-normal;
 	}
 
 	.joinUsBtn {
-		@apply text-[#F6941E] bg-white px-[16px] py-[11.5px] 
+		@apply text-primaryColor bg-white px-[16px] py-[11.5px] 
   
-    gap-x-[10px] mt-[30px] border border-[#F6941E]
+    gap-x-[10px] mt-[30px] border border-primaryColor
     xl:text-[18px] xl:leading-[23.4px] xl:px-[20px] xl:py-[13.5px]
      font-bold text-[18px] leading-[23px] font-helvetica;
 	}
@@ -2083,7 +2083,7 @@ font-helvetica font-normal;
 
 	.bodyButton {
 		@apply xs:px-[16px] xs:py-[11.5px] flex items-center justify-between 
-    xs:text-[18px] xs:leading-[23.4px] xs:gap-x-[10px]  text-white font-helvetica font-bold bg-[#F6941E];
+    xs:text-[18px] xs:leading-[23.4px] xs:gap-x-[10px]  text-white font-helvetica font-bold bg-primaryColor;
 	}
 
 	.readMore {

@@ -57,7 +57,7 @@ const PhotoGallery = () => {
 				<div
 					style={{
 						backgroundImage: `url(${"/photo-gallery-banner.png"})`,
-						filter: "brightness(.5)",
+						// filter: "brightness(.5)",
 					}}
 					className="bg-no-repeat bg-top bg-cover w-[100%] h-[500px] flex justify-center items-center"
 				></div>
@@ -65,8 +65,8 @@ const PhotoGallery = () => {
 				{/* Text Section */}
 
 				<div className="absolute inset-0 flex flex-col justify-center px-[20px] lg:px-[10vw]">
-					<h1 className="xs:text-[45px]  lg:text-[80px] text-white font-helvetica font-bold">
-						Photo Gallery
+					<h1 className="xs:text-[45px]  lg:text-[80px] text-black font-helvetica font-bold">
+						<span className="text-primaryColor">Photo</span> Gallery
 					</h1>
 				</div>
 			</div>
@@ -91,8 +91,8 @@ const PhotoGallery = () => {
 					</div>
 
 					<button
-						className="flex justify-center items-center hover:bg-[#F6941E] hover:text-white mx-auto mt-[50px] 
-            border border-[#F6941E] text-[#F6941E] font-helvetica
+						className="flex justify-center items-center hover:bg-primaryColor hover:text-white mx-auto mt-[50px] 
+            border border-primaryColor text-primaryColor font-helvetica
              font-bold text-[18px] leading-[23px] py-[13px] px-[20px]"
 						onClick={() => setShowAll(!showAll)} // Step 3: Toggle between showing all and limited images
 					>

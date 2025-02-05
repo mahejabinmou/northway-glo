@@ -9,15 +9,15 @@ const AboutUsHero = () => {
 				<div
 					style={{
 						backgroundImage: `url(${"/about-us-banner.png"})`,
-						filter: "brightness(.7) ",
+						// filter: "brightness(.7) ",
 					}}
 					className="bg-no-repeat bg-center bg-cover w-[100%] h-[500px]  flex justify-center items-center"
 				></div>
 
 				{/* Text Section */}
 				<div className="absolute inset-0 flex  items-center  px-[60px]  gap-y-[20px] lg:px-[10vw]">
-					<h1 className=" text-[80px]  text-white font-helvetica font-bold ">
-						About Us
+					<h1 className=" text-[80px]  text-black font-helvetica font-bold ">
+						<span className="text-primaryColor">About</span> Us
 					</h1>
 				</div>
 			</div>
