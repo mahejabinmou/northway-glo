@@ -18,17 +18,17 @@
 	/* ============== coommon styles here ========== */
 
 	.sectionGap {
-		@apply /* mt-[100px] px-[16px] */
+		@apply px-[7vw]
     /* ======= */
-    xs:mt-[60px] xs:px-[16px]
+    xs:mt-[60px] 
     /* ======= */
-    md:mt-[80px] md:px-[32px]
+    md:mt-[80px] 
     /* ======= */
-    lg:px-[60px] lg:mt-[80px]
+     lg:mt-[80px]
     /* ======= */
-    xl:px-[100px] xl:mt-[100px]
+     xl:mt-[100px]
     /* ======= */
-    2xl:px-[100px] 2xl:mt-[100px];
+     2xl:mt-[100px];
 	}
 
 	.mainPara {
@@ -237,19 +237,14 @@ font-helvetica font-normal;
     font-helvetica font-bold bg-white text-white;
 	}
 
-	.largeScreenMenu {
-		@apply lg:mx-[60px] lg:py-[15px]
-    /* ========= */ 
-    xl:mx-[150px] xl:py-[30px] 
-    /* ========= */
-    
-    flex justify-between items-center;
+	.sidePadding {
+		@apply mx-[7vw];
 	}
 
 	.largeScreenMenu {
 		@apply lg:mx-[60px] lg:py-[15px]
     /* ========= */ 
-    xl:mx-[150px] xl:py-[30px] 
+    xl:mx-[7vw] xl:py-[30px] 
     /* ========= */
     
     flex justify-between items-center;
@@ -257,7 +252,7 @@ font-helvetica font-normal;
 	.ToplargeScreenMenu {
 		@apply lg:mx-[60px] 
     /* ========= */ 
-    xl:mx-[150px] py-[10px] 
+    xl:mx-[7vw] py-[10px] 
     /* ========= */
     
     flex justify-between items-center;

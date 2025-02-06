@@ -47,7 +47,7 @@ const About = () => {
 						<div className=" ">
 							<h1
 								className="  xs:text-[30px] xs:leading-[36px]
-              text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
+              text-center pb-[5px] font-bold text-primaryColor font-helvetica"
 							>
 								<CountUp start={0} end={800} duration={10} />+
 							</h1>
@@ -62,7 +62,7 @@ const About = () => {
 						<div className=" text-center">
 							<h1
 								className="xs:text-[30px] xs:leading-[36px]
-              text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
+              text-center pb-[5px] font-bold text-primaryColor font-helvetica"
 							>
 								<CountUp start={0} end={65} duration={10} />+
 							</h1>
@@ -76,7 +76,7 @@ const About = () => {
 						<div className=" text-center">
 							<h1
 								className="xs:text-[30px] xs:leading-[36px]
-              text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
+              text-center pb-[5px] font-bold text-primaryColor font-helvetica"
 							>
 								<CountUp start={0} end={25} duration={10} />
 							</h1>
@@ -93,7 +93,7 @@ const About = () => {
 				<div>
 					<h1 className="chooseUsSamll xs:pb-[10px]  xs:pt-[40px] text-[#1E1E1E]">
 						{" "}
-						<span className="text-[#F6941E]">About</span> Us
+						<span className="text-primaryColor">About</span> Us
 					</h1>
 
 					<p className="homePara text-black/[0.8] pb-[25px]">
@@ -180,7 +180,7 @@ const About = () => {
 
 					<div className="xl:mb-[82px] lg:mb-[0px] md:mb-[0px]">
 						<h1 className="chooseUsSamll md:pt-[57px] md:pb-[20px] lg:pt-[0px] lg:pb-[25px] xl:pt-[0px]  xl:pb-[16px]">
-							<span className="text-[#F6941E]">About</span> Us
+							<span className="text-primaryColor">About</span> Us
 						</h1>
 
 						<p className="homePara  pb-[25px] md:pb-[30px] lg:pb-[30px] xl:pb-[30px] text-[#1E1E1E]/[0.8]">
@@ -202,7 +202,7 @@ const About = () => {
 						</ul>
 
 						<Link to="/About">
-							<button className="homeLargeAppoinMent border border-[#F6941E] hover:bg-[#F6941E] hover:text-white flex items-center justify-between text-[#F6941E] bg-white font-bold">
+							<button className="homeLargeAppoinMent border border-primaryColor hover:bg-primaryColor hover:text-white flex items-center justify-between text-primaryColor bg-white font-bold">
 								Read More <MdArrowRightAlt />
 							</button>
 						</Link>

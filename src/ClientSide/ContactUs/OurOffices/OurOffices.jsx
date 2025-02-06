@@ -47,7 +47,7 @@ const OurOffices = () => {
 			<div className="sectionGap px-[10vw]">
 				<div className="mb-[30px]">
 					<h2 className="text-[48px]  leading-[120%] text-center font-helvetica font-bold">
-						Our <span className="text-[#F6941E]">Offices</span>
+						Our <span className="text-primaryColor">Offices</span>
 					</h2>
 				</div>
 
@@ -58,7 +58,7 @@ const OurOffices = () => {
 							onMouseEnter={() => handleMouseEnter(office.name)}
 							onMouseLeave={handleMouseLeave}
 							onClick={() => handleOfficeClick(office)}
-							className={`py-[90px] px-[100px] flex items-center justify-center gap-[20px] shadow-officeShadow transition-all duration-300 cursor-pointer hover:bg-[#F6941E]/[.75]
+							className={`py-[90px] px-[100px] flex items-center justify-center gap-[20px] shadow-officeShadow transition-all duration-300 cursor-pointer hover:bg-primaryColor/[.75]
           bg-white`}
 						>
 							<div className="flex text-[30px] items-center justify-center gap-[20px]">

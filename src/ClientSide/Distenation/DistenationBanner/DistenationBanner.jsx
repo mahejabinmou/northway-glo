@@ -4,7 +4,7 @@ import { countryDetailsDestructor } from "../../../utils/CountryDetails";
 const DistenationBanner = ({ countryName }) => {
 	const countryDetails = countryDetailsDestructor(countryName); // if you go inside this file you will crashed your head so better no to go there...
 	return (
-		<div>
+		<div className="">
 			{/* <Topbar></Topbar>
             <Navbar></Navbar> */}
 
@@ -20,7 +20,7 @@ const DistenationBanner = ({ countryName }) => {
 				></div>
 
 				{/* Text Section */}
-				<div className="absolute  inset-0 mt-[40px] flex flex-col gap-y-[20px] px-[40px] md:px-[60px]  justify-center   lg:px-[10vw]">
+				<div className="absolute  inset-0 mt-[40px] flex flex-col gap-y-[20px] sidePadding  justify-center">
 					<h1 className="text-4xl lg:text-6xl 2xl:text-6xl text-black  font-bold">
 						Study In <span className="text-primaryColor">{countryName}</span>
 					</h1>

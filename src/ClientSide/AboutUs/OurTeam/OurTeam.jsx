@@ -7,7 +7,7 @@ const OurTeam = () => {
 			<div className="mx-auto">
 				<div className="flex flex-col text-center w-full mb-10">
 					<h1 className="chooseUsSamll xs:pb-[20px]  xl:pb-[20px] md:pb-[20px] lg:pb-[20px] flex items-center justify-center gap-x-[10px]">
-						<span className="text-[#F6941E]"> Our {""} </span> {""} {""}
+						<span className="text-primaryColor"> Our {""} </span> {""} {""}
 						<span className="text-[#1E1E1E]">Team</span>
 					</h1>
 					<p className="homePara text-[#1E1E1E]/[0.8] xs:pb-[30px] md:pb-[30px] xl:pb-[30px] lg:pb-[30px] flex items-center justify-center mx-auto">

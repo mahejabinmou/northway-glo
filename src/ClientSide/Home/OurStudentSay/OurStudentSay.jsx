@@ -51,7 +51,7 @@ const OurStudentSay = () => {
 			{/* mobile */}
 			<div className="md:hidden block text-center">
 				<h1 className="xs:text-[30px] xs:leading-[36px] text-[#1E1E1E] font-helvetica font-bold  pb-[20px]">
-					<span className="text-[#F6941E] ">What’s</span> Our student say
+					<span className="text-primaryColor ">What’s</span> Our student say
 				</h1>
 				<p className="text-[14px] leading-[21px] font-normal font-helvetica text-[#1E1E1E]/[.8]  pb-[30px]">
 					Our students have shared their incredible journeys and successes, from
@@ -63,7 +63,7 @@ const OurStudentSay = () => {
 			{/* large */}
 			<div className="hidden md:block text-center">
 				<h1 className="mainHeader  pb-[10px] md:pb-[20px]">
-					<span className="text-[#F6941E] ">What’s</span> Our student say
+					<span className="text-primaryColor ">What’s</span> Our student say
 				</h1>
 				<p className="mainPara text-[#1E1E1E]/[.8] max-w-[800px] mx-auto pb-[30px] md:pb-[40px] font-helvetica font-normal">
 					Our students have shared their incredible journeys and successes, from
@@ -77,9 +77,9 @@ const OurStudentSay = () => {
 
 			<div className="slider-container  ">
 				<Slider {...settings}>
-					<div className="  max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+					<div className="  max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
 						<FaQuoteLeft
-							className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
+							className="absolute text-3xl mx-2 text-primaryColor pb-[20px]  bottom-0  top-[30px] 
             left-0"
 						/>
 						<div>
@@ -87,7 +87,7 @@ const OurStudentSay = () => {
 								We are the representatives of more than 30+ universities in
 								Australian countries and our admission
 							</p>
-							<div className="flex pb-[20px] pt-[10px] items-center text-[#F6941E] gap-x-[6px]">
+							<div className="flex pb-[20px] pt-[10px] items-center text-primaryColor gap-x-[6px]">
 								<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
 							</div>
 						</div>
@@ -106,9 +106,9 @@ const OurStudentSay = () => {
 						</div>
 					</div>
 
-					<div className=" max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+					<div className=" max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
 						<FaQuoteLeft
-							className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
+							className="absolute text-3xl mx-2 text-primaryColor pb-[20px]  bottom-0  top-[30px] 
             left-0"
 						/>
 						<div>
@@ -116,7 +116,7 @@ const OurStudentSay = () => {
 								We are the representatives of more than 30+ universities in
 								Australian countries and our admission
 							</p>
-							<div className="flex pb-[20px] pt-[10px] items-center text-[#F6941E]  gap-x-[6px]">
+							<div className="flex pb-[20px] pt-[10px] items-center text-primaryColor  gap-x-[6px]">
 								<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
 							</div>
 						</div>
@@ -139,9 +139,9 @@ const OurStudentSay = () => {
 						</div>
 					</div>
 
-					<div className=" max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+					<div className=" max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
 						<FaQuoteLeft
-							className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
+							className="absolute text-3xl mx-2 text-primaryColor pb-[20px]  bottom-0  top-[30px] 
             left-0"
 						/>
 						<div>
@@ -149,7 +149,7 @@ const OurStudentSay = () => {
 								We are the representatives of more than 30+ universities in
 								Australian countries and our admission
 							</p>
-							<div className="flex pb-[20px] pt-[10px] items-center text-[#F6941E]   gap-x-[6px]">
+							<div className="flex pb-[20px] pt-[10px] items-center text-primaryColor   gap-x-[6px]">
 								<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
 							</div>
 						</div>
@@ -167,9 +167,9 @@ const OurStudentSay = () => {
 							</div>
 						</div>
 					</div>
-					<div className=" max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+					<div className=" max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
 						<FaQuoteLeft
-							className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
+							className="absolute text-3xl mx-2 text-primaryColor pb-[20px]  bottom-0  top-[30px] 
             left-0"
 						/>
 						<div>
@@ -177,7 +177,7 @@ const OurStudentSay = () => {
 								We are the representatives of more than 30+ universities in
 								Australian countries and our admission
 							</p>
-							<div className="flex pb-[20px] pt-[10px] items-center text-[#F6941E]   gap-x-[6px]">
+							<div className="flex pb-[20px] pt-[10px] items-center text-primaryColor   gap-x-[6px]">
 								<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
 							</div>
 						</div>

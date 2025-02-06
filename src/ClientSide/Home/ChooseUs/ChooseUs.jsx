@@ -61,7 +61,7 @@ export default ChooseUs;
 //           <div className="absolute inset-0 flex flex-col items-center justify-center text-center ">
 //             <h1
 //               className="homeHead xs:px-[16px] lg:px-[200px] xl:px-[346px]  2xl:px-[346px]
-//              md:px-[150px]"
+//              md:px-[7vw]"
 //             >
 //               Choose from 11+ University and College Scholarships
 //             </h1>
@@ -76,7 +76,7 @@ export default ChooseUs;
 //               for your academic journey.
 //             </p>
 //             <Link to="/ContactUs">
-//               <button className="flex items-center justify-between joinUsBtn gap-x-[11.5px] hover:bg-[#F6941E] hover:text-white">
+//               <button className="flex items-center justify-between joinUsBtn gap-x-[11.5px] hover:bg-primaryColor hover:text-white">
 //                 Join us <MdArrowRightAlt />
 //               </button>
 //             </Link>

@@ -15,13 +15,14 @@ const Home = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
+
 	return (
 		<div className="GlobalBg">
 			<HeroSection></HeroSection>
 			<About></About>
 
 			{/* mission/vision wrapper start */}
-			<div className="relative sm:flex sm:flex-wrap mt-[90px] h-auto 2xl:h-[700px]">
+			<div className="relative sm:flex sm:flex-wrap mt-[90px] h-1/4 2xl:h-[800px]">
 				{/* Background Image */}
 				<div
 					className="absolute inset-0 bg-cover object-center"
@@ -32,7 +33,7 @@ const Home = () => {
 					}}
 				/>
 				{/* Content */}
-				<div className="relative z-10 flex flex-col justify-center items-center">
+				<div className="relative z-10 flex flex-col justify-evenly items-center">
 					<Mission />
 					<Vision />
 				</div>

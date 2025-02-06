@@ -23,7 +23,7 @@ const Footer = () => {
 	);
 	return (
 		// bg-[#1E1E1E]
-		<div className=" bg-[#F6941E]/[.25] text-black sectionGap relative">
+		<div className=" bg-primaryColor/[.25] text-black sectionGap relative">
 			{/* foooter content */}
 			<div className=" pt-[50px]">
 				{/* mobile */}
@@ -365,7 +365,7 @@ const Footer = () => {
 										</span>
 									</p>
 
-									<p className="flex items-start gap-x-[5px] pt-6 lg:pt-0 xl:pt-7 2xl:pt-6">
+									<p className="flex items-start gap-x-[5px] lg:pt-5 xl:pt-0">
 										<LazyLoadImage
 											className="h-[20px] w-[22px] object-cover"
 											src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
@@ -464,7 +464,7 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<hr className="border-1 border-black absolute inset-x-0" />
+				<hr className="border-1 border-black/30 absolute inset-x-0" />
 				<div className="py-[25px] px-[30px] 2xl:py-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] text-center">
 					<div
 						className="flex justify-center items-center space-x-[40px]

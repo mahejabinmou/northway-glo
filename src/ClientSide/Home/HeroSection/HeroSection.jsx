@@ -117,7 +117,7 @@ const HeroSection = () => {
 						</h1>
 
 						{/* "Northway Global" text */}
-						<h1 className="homeHead text-[#F6941E] md:pb-[15px]">
+						<h1 className="homeHead text-primaryColor md:pb-[15px]">
 							<span ref={northwayMobileRef}>
 								{"Northway Global".split("").map((char, index) => (
 									<span key={index}>{char}</span>
@@ -134,7 +134,7 @@ const HeroSection = () => {
 						<button
 							className="homeLargeAppoinMent flex items-center  justify-between
           gap-x-[10px]  
-           bg-[#F6941E] px-[16px] py-[11.5px] "
+           bg-primaryColor px-[16px] py-[11.5px] "
 						>
 							<span className="">Start Your Journey</span> <MdArrowRightAlt />
 						</button>
@@ -243,7 +243,7 @@ const HeroSection = () => {
 			{/* big screen */}
 			<div className=" relative h-[914px] flex items-center justify-center hidden md:block">
 				<div className="  ">
-					<div className="absolute  z-10 font-helvetica  xl:ml-[150px] md:mt-[150px] lg:mt-[100px]  lg:ml-[60px] md:ml-[80px] ml-[60px]">
+					<div className="absolute  z-10 font-helvetica ml-[7vw] md:mt-[150px] lg:mt-[100px]">
 						<div>
 							<h1 className="homeHead xl:pb-[15px] lg:pb-[15px] max-w-[557px]">
 								<span ref={welcomeRef}>
@@ -254,7 +254,7 @@ const HeroSection = () => {
 							</h1>
 
 							{/* "Northway Global" text in orange - second line */}
-							<h1 className="homeHead text-[#F6941E] xl:pb-[15px] lg:pb-[15px] max-w-[557px]">
+							<h1 className="homeHead text-primaryColor xl:pb-[15px] lg:pb-[15px] max-w-[557px]">
 								<span ref={northwayRef}>
 									{"Northway Global".split("").map((char, index) => (
 										<span key={index}>{char}</span>
@@ -269,7 +269,7 @@ const HeroSection = () => {
 							You.
 						</p>
 						<Link to="/studyDistentionFlag">
-							<button className="homeButton flex items-center justify-between bg-[#F6941E]">
+							<button className="homeButton flex items-center justify-between bg-primaryColor">
 								Start Your Journey <MdArrowRightAlt />
 							</button>
 						</Link>
@@ -341,7 +341,7 @@ const HeroSection = () => {
 				</div>
 
 				{/* Grid of Hero Cards */}
-				<div className="absolute inset-0 font-helvetica 2xl:top-[597px] xl:top-[597px] lg:top-[597px] md:top-[550px] xl:mx-[150px] 2xl:mx-[150px] lg:mx-[60px] md:mx-[80px] grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 xl:gap-x-[24px] 2xl:gap-x-[24px] lg:gap-x-[20px] md:gap-x-[10px]">
+				<div className="absolute inset-0 font-helvetica 2xl:top-[597px] xl:top-[597px] lg:top-[597px] md:top-[550px] mx-[7vw] grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 xl:gap-x-[24px] 2xl:gap-x-[24px] lg:gap-x-[20px] md:gap-x-[10px]">
 					{officesData.map((office) => (
 						<HeroCard
 							key={office.name}
