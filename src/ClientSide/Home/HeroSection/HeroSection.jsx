@@ -100,12 +100,8 @@ const HeroSection = () => {
 			{/* <Topbar></Topbar>
             <Navbar></Navbar> */}
 			{/* mobile */}
-			<div className="relative  md:hidden block">
-				<div
-					className="absolute  z-10 font-helvetica  
-          mt-[100px]    xs:mt-[100px] px-[16px] 
-          "
-				>
+			<div className="relative md:hidden block">
+				<div className="absolute z-10 font-helvetica mt-[60px] px-[7vw]">
 					<div>
 						{/* "Welcome to" text */}
 						<h1 className="homeHead text-white md:pb-[15px]">
@@ -125,7 +121,7 @@ const HeroSection = () => {
 							</span>
 						</h1>
 					</div>
-					<p className="pb-[30px] homePara  text-white   max-w-[332px]">
+					<p className="pb-[20px] homePara  text-white   max-w-[332px]">
 						Choose Northway For Your Study Abroad Journey & Embark on An
 						Exceptional Educational Experience That Combines Academic
 						Excellence, Personalized Guidance, and a Seamless Transition to You.
@@ -134,7 +130,7 @@ const HeroSection = () => {
 						<button
 							className="homeLargeAppoinMent flex items-center  justify-between
           gap-x-[10px]  
-           bg-primaryColor/[.80] px-[16px] py-[11.5px] "
+           bg-primaryColor/[.80] px-[16px] py-[11.5px]"
 						>
 							<span className="">Start Your Journey</span> <MdArrowRightAlt />
 						</button>
@@ -243,7 +239,7 @@ const HeroSection = () => {
 			{/* big screen */}
 			<div className=" relative h-[914px] flex items-center justify-center hidden md:block">
 				<div className="  ">
-					<div className="absolute  z-10 font-helvetica ml-[7vw] md:mt-[150px] lg:mt-[100px]">
+					<div className="absolute  z-10 font-helvetica mx-[7vw] md:mt-[150px] lg:mt-[100px]">
 						<div>
 							<h1 className="homeHead xl:pb-[15px] lg:pb-[15px] max-w-[557px]">
 								<span ref={welcomeRef}>

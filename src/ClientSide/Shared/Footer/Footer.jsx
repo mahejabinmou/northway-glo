@@ -54,42 +54,60 @@ const Footer = () => {
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<FaFacebookF size={16} className="footerSocailIcon" />
+											<FaFacebookF
+												size={20}
+												className="footerSocailIcon fill-primaryColor"
+											/>
 										</a>
 										<a
 											href="https://www.instagram.com/northwayglobal"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<FaInstagram size={16} className="footerSocailIcon " />
+											<FaInstagram
+												size={20}
+												className="footerSocailIcon fill-primaryColor "
+											/>
 										</a>
 										<a
 											href="https://www.linkedin.com/in/northwayglobal/"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<FaLinkedinIn size={16} className="footerSocailIcon " />
+											<FaLinkedinIn
+												size={20}
+												className="footerSocailIcon fill-primaryColor "
+											/>
 										</a>
 										<a
 											href="https://x.com/northwayglobalx"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<FaXTwitter size={16} className="footerSocailIcon" />
+											<FaXTwitter
+												size={20}
+												className="footerSocailIcon fill-primaryColor"
+											/>
 										</a>
 										<a
 											href="https://wa.me/8801771660030"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<FiYoutube size={16} className="footerSocailIcon" />
+											<FiYoutube
+												size={20}
+												className="footerSocailIcon fill-primaryColor"
+											/>
 										</a>
 										<a
 											href="https://wa.me/8801771660030"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<AiOutlineTikTok size={16} className="footerSocailIcon" />
+											<AiOutlineTikTok
+												size={20}
+												className="footerSocailIcon fill-primaryColor"
+											/>
 										</a>
 
 										<a
@@ -97,7 +115,10 @@ const Footer = () => {
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<FaWhatsapp size={16} className="footerSocailIcon" />
+											<FaWhatsapp
+												size={20}
+												className="footerSocailIcon fill-primaryColor"
+											/>
 										</a>
 									</div>
 								</div>
@@ -275,42 +296,60 @@ const Footer = () => {
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<FaFacebookF size={16} className="footerSocailIcon" />
+										<FaFacebookF
+											size={24}
+											className="footerSocailIcon fill-primaryColor"
+										/>
 									</a>
 									<a
 										href="https://www.instagram.com/northwayglobal"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<FaInstagram size={16} className="footerSocailIcon " />
+										<FaInstagram
+											size={24}
+											className="footerSocailIcon fill-primaryColor "
+										/>
 									</a>
 									<a
 										href="https://www.linkedin.com/in/northwayglobal/"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<FaLinkedinIn size={16} className="footerSocailIcon " />
+										<FaLinkedinIn
+											size={24}
+											className="footerSocailIcon fill-primaryColor "
+										/>
 									</a>
 									<a
 										href="https://x.com/northwayglobalx"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<FaXTwitter size={16} className="footerSocailIcon" />
+										<FaXTwitter
+											size={24}
+											className="footerSocailIcon fill-primaryColor"
+										/>
 									</a>
 									<a
 										href="https://wa.me/8801771660030"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<FiYoutube size={16} className="footerSocailIcon" />
+										<FiYoutube
+											size={24}
+											className="footerSocailIcon fill-primaryColor"
+										/>
 									</a>
 									<a
 										href="https://wa.me/8801771660030"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<AiOutlineTikTok size={16} className="footerSocailIcon" />
+										<AiOutlineTikTok
+											size={24}
+											className="footerSocailIcon fill-primaryColor"
+										/>
 									</a>
 
 									<a
@@ -318,7 +357,10 @@ const Footer = () => {
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<FaWhatsapp size={16} className="footerSocailIcon" />
+										<FaWhatsapp
+											size={24}
+											className="footerSocailIcon fill-primaryColor"
+										/>
 									</a>
 								</div>
 							</div>

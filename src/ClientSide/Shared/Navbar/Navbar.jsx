@@ -9,6 +9,7 @@ import { AppContext } from "../../../store/AppContext";
 import Form from "./Form/Form";
 import "./Navbar.css";
 import StudyTenDestention from "./StudyDestentionFlag/StudyTenDestention";
+
 const Navbar = () => {
 	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -41,6 +42,7 @@ const Navbar = () => {
 	const handleClose = () => {
 		setOpen(false);
 	};
+
 	const [onGalarryEnter, setOnGalarryEnter] = useState(false);
 
 	// useEffect(() => {
@@ -71,14 +73,11 @@ const Navbar = () => {
 			{/* Fixed Navbar */}
 			{/* mobile */}
 			<nav
-				className={`lg:hidden relative fix  ${scrolled ? "hidden" : ""} 
-        `}
-
-				// ${
-				//   isHomePage ? "fixed-navbar" : "fixed-navbar"
-				// }
+				className={`lg:hidden relative fix py-4 px-[7vw] ${
+					scrolled ? "hidden" : ""
+				}`}
 			>
-				<div className="navbarLeftRightSpace flex justify-between items-center bg-transparent font-helvetica font-normal">
+				<div className="flex justify-between items-center bg-transparent font-helvetica font-normal">
 					<div className="headerLogo ">
 						<Link to="/" onClick={() => setIsDropdown2Open(false)}>
 							<LazyLoadImage
@@ -92,7 +91,7 @@ const Navbar = () => {
 						</Link>
 					</div>
 					{/* <div className="h-[30px] -translate-x-[16px]"> */}
-					<div className="h-[30px] ">
+					<div className="h-[30px] bg-white">
 						<IoMenu
 							className={`h-full w-full ${
 								isHomePage ? "text-black" : "text-black"
@@ -101,8 +100,8 @@ const Navbar = () => {
 						></IoMenu>
 					</div>
 					{open && (
-						<ul className="px-[32px] py-[12px] absolute top-0 right-0 bg-white w-[100%] z-50 transition-transform duration-1000 ease-in-out">
-							<div className="pb-[30px] flex justify-between items-center border-b-2 border-gray-200">
+						<ul className="px-[7vw] py-[20px] absolute top-0 right-0 bg-white w-[100%] z-50 transition-transform duration-1000 ease-in-out">
+							<div className="pt-1 pb-10 flex justify-between items-center border-b-2 border-gray-200">
 								<div className="headerLogo">
 									<Link to="/">
 										<LazyLoadImage
@@ -116,7 +115,7 @@ const Navbar = () => {
 									className="md:text-[38px] text-[35px] font-title"
 									onClick={handleClose}
 								>
-									<MdClose className="text-[#7EA254]" />
+									<MdClose className="text-primaryColor" />
 								</div>
 							</div>
 							<div className="mobileMenuParent23">
@@ -229,7 +228,7 @@ const Navbar = () => {
 			{/* large screen nav */}
 			<div className="">
 				<div
-					className={`hidden  lg:block w-full z-50  GlobalBg  shadow-[0_-4px_15px_rgba(50,50,50,0.5),0_4px_15px_rgba(50,50,50,0.5)]`}
+					className={`hidden py-3 lg:block w-full z-50  GlobalBg  shadow-[0_-4px_15px_rgba(50,50,50,0.5),0_4px_15px_rgba(50,50,50,0.5)]`}
 				>
 					<div className="largeScreenMenu !py-0 h-[50px] bg-transparent font-helvetica font-normal">
 						<div className="headerLogo">
