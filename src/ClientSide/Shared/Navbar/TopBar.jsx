@@ -1,34 +1,17 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import React, { useContext, useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
 import "./Navbar.css";
 
+import { AiOutlineTikTok } from "react-icons/ai";
 import {
 	FaFacebookF,
 	FaInstagram,
 	FaLinkedinIn,
 	FaWhatsapp,
 } from "react-icons/fa";
-import { AppContext } from "../../../store/AppContext";
+import { FaXTwitter, FaYoutube } from "react-icons/fa6";
 
-import { AiOutlineTikTok } from "react-icons/ai";
-import { FaXTwitter } from "react-icons/fa6";
-import { FiYoutube } from "react-icons/fi";
 const Topbar = () => {
-	// const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-	// const toggleDropdown = () => {
-	//   setIsDropdownOpen(!isDropdownOpen);
-	// };
-
-	// const toggleDropdown2 = () => {
-	//   setIsDropdown2Open(!isDropdown2Open);
-	// };
-	// const location = useLocation();
-
-	// const { isDropdown2Open, setIsDropdown2Open } = useContext(AppContext);
-
-	const [open, setOpen] = useState(false);
 	const [scrolled, setScrolled] = useState(false);
 
 	useEffect(() => {
@@ -47,14 +30,8 @@ const Topbar = () => {
 		};
 	}, []);
 
-	// form
-
 	return (
 		<div>
-			{/* Fixed Navbar */}
-			{/* mobile */}
-
-			{/* large screen nav */}
 			<div className="bg-white">
 				<div className={`hidden  lg:block w-full z-50  bg-primaryColor/[.3] `}>
 					<div className="ToplargeScreenMenu bg-transparent font-helvetica font-normal">
@@ -106,7 +83,7 @@ const Topbar = () => {
 						</div>
 
 						<div className=" ">
-							<div className="flex    gap-x-[10px]">
+							<div className="flex gap-x-[10px]">
 								<a
 									href="https://www.facebook.com/northwayglobal"
 									target="_blank"
@@ -148,11 +125,11 @@ const Topbar = () => {
 									/>
 								</a>
 								<a
-									href="https://x.com/northwayglobalx"
+									href="https://www.youtube.com/@northwayglobal6453"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<FiYoutube
+									<FaYoutube
 										size={20}
 										className="footerSocailIcon fill-primaryColor"
 									/>

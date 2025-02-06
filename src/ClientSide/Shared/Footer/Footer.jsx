@@ -1,6 +1,4 @@
-// export default Footer;
-// eslint-disable-next-line no-unused-vars
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { AiOutlineTikTok } from "react-icons/ai";
 import {
 	FaFacebookF,
@@ -8,8 +6,7 @@ import {
 	FaLinkedinIn,
 	FaWhatsapp,
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FiYoutube } from "react-icons/fi";
+import { FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import useScrollTrickilyToTop from "../../../hooks/useScrollTrickilyToTop";
@@ -90,11 +87,11 @@ const Footer = () => {
 											/>
 										</a>
 										<a
-											href="https://wa.me/8801771660030"
+											href="https://www.youtube.com/@northwayglobal6453"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<FiYoutube
+											<FaYoutube
 												size={20}
 												className="footerSocailIcon fill-primaryColor"
 											/>
@@ -332,11 +329,11 @@ const Footer = () => {
 										/>
 									</a>
 									<a
-										href="https://wa.me/8801771660030"
+										href="https://www.youtube.com/@northwayglobal6453"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<FiYoutube
+										<FaYoutube
 											size={24}
 											className="footerSocailIcon fill-primaryColor"
 										/>
