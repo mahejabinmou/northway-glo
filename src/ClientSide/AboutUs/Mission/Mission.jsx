@@ -34,7 +34,7 @@ const Mission = () => {
 					className={`animated-section-ltr ${isVisible ? "visible" : ""}`}
 				>
 					<h1 className="chooseUsSamll text-white">
-						<span className="text-[#ff9100]">Our</span> Mission
+						<span className="text-primaryColor">Our</span> Mission
 					</h1>
 					<p className="homePara pb-[25px] md:pb-[30px] lg:pb-[30px] xl:pb-[30px] text-white ">
 						We aim to facilitate the smooth transition of students into new

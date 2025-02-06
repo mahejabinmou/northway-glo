@@ -27,7 +27,7 @@ const AboutUs = () => {
 					}}
 				/>
 				{/* Content */}
-				<div className="relative z-10 flex flex-col justify-center items-center">
+				<div className="relative z-10 flex flex-col justify-around items-center">
 					<Mission />
 					<Vision />
 				</div>

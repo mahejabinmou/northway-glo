@@ -98,7 +98,7 @@ const OurVideo = () => {
 							<h1 className="studyDestinationHeading pb-[20px]">
 								Our <span className="text-primaryColor ">Video</span>
 							</h1>
-							<p className="homePara text-[#FFFFFF]/[.8] text-center ">
+							<p className="homePara text-[#FFFFFF]/[.8] text-center">
 								Explore insights and success stories from our students who have
 								embarked on their study abroad journeys. Watch how we've helped
 								countless individuals achieve their academic dreams across the
@@ -106,7 +106,7 @@ const OurVideo = () => {
 							</p>
 						</div>
 
-						<div className="max-w-[1140px]  mx-auto absolute  bottom-[-150px] xl:left-[150px] xl:right-[150px] lg:left-[60px] lg:right-[60px] md:left-[80px] md:right-[80px] xs:left-[16px] xs:right-[16px]">
+						<div className="max-w-[1140px]  mx-auto absolute  bottom-[-180px] xl:left-[150px] xl:right-[150px] lg:left-[60px] lg:right-[60px] md:left-[80px] md:right-[80px] xs:left-[16px] xs:right-[16px]">
 							<Slider {...settings} className="ourVideoSlider">
 								{StudentImg.map((StudentImg, index) => (
 									<div key={index} className="">
@@ -149,7 +149,7 @@ const OurVideo = () => {
 						backgroundImage: `url("https://i.ibb.co/R6Q4WKP/studentbg-66dbe8ed9b77d.webp")`,
 					}}
 				>
-					<div className="absolute inset-0 bg-black opacity-80 z-0"></div>
+					<div className="absolute inset-0 bg-black opacity-50 z-0"></div>
 					<div className="relative z-10 ">
 						<div className=" md:mx-auto max-w-[432px] text-center py-2 text-white ">
 							<h1
@@ -158,7 +158,7 @@ const OurVideo = () => {
 							>
 								Student <span className="text-primaryColor">Speaks</span>
 							</h1>
-							<p className="font-normal font-helvetica xs:text-[14px] xs:leading-[21px]  text-[#FFFFFF]/[.8] px-[20px] md:px-0 pb-[20px] md:pb-[20px]">
+							<p className="font-normal font-helvetica xs:text-[14px] xs:leading-[21px]  text-[#FFFFFF]/[.8] px-[20px] md:px-0 pb-[0px]">
 								Hear directly from our students as they share their experiences,
 								successes, and the impact our services have had on their
 								academic journeys. Their stories reflect the support and

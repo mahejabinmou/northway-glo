@@ -13,34 +13,14 @@ const About = () => {
 			<div className="chooseUsParent mt-[50px] px-[16px] md:hidden block ">
 				<div>
 					<div className="relative w-full overflow-hidden h-full chooseUsImgParent">
-						{showVideo ? (
-							<iframe
-								className="absolute top-0 left-0 w-full h-full"
-								src="https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0&autoplay=1"
-								title="YouTube video player"
-								frameBorder="0"
-								loading="lazy"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowFullScreen
-							></iframe>
-						) : (
-							<div
-								className="cursor-pointer relative"
-								onClick={() => setShowVideo(true)}
-							>
-								<LazyLoadImage
-									src="https://img.youtube.com/vi/THi7JpVDyCE/hqdefault.jpg"
-									alt="youtube thumbnail"
-									loading="lazy"
-									className="w-full h-full object-cover"
-								/>
-								<LazyLoadImage
-									src="/Polygon 3.png"
-									alt="play icon"
-									className="absolute w-10 top-1/2 left-1/2 -translate-x-1/2"
-								/>
-							</div>
-						)}
+						<iframe
+							className="absolute top-0 left-0 w-full h-full"
+							src="https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0"
+							title="YouTube video player"
+							loading="lazy"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						></iframe>
 					</div>
 
 					<div className=" xs:pt-[16px] flex justify-between items-center font-helvetica font-bold">
@@ -124,37 +104,15 @@ const About = () => {
 			<div className="sectionGap hidden md:block">
 				<div className="chooseUsParent ">
 					<div>
-						<div
-							className="relative w-full overflow-hidden chooseUsImgParent"
-							// style={{ paddingTop: "56.25%" }}
-						>
-							{showVideo ? (
-								<iframe
-									loading="lazy"
-									className="absolute top-0 left-0 w-full h-full aspect-video"
-									src="https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0&autoplay=1"
-									title="YouTube video player"
-									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-									allowFullScreen
-								></iframe>
-							) : (
-								<div
-									className="cursor-pointer"
-									onClick={() => setShowVideo(true)}
-								>
-									<LazyLoadImage
-										src="https://img.youtube.com/vi/THi7JpVDyCE/hqdefault.jpg"
-										alt="youtube thumbnail"
-										loading="lazy"
-										className="w-full h-full aspect-video"
-									/>
-									<LazyLoadImage
-										src="/Polygon 3.png"
-										alt="play icon"
-										className="absolute top-1/3 2xl:top-1/2 left-1/2"
-									/>
-								</div>
-							)}
+						<div className="relative w-full overflow-hidden chooseUsImgParent">
+							<iframe
+								loading="lazy"
+								className="absolute top-5 left-0 w-full aspect-video"
+								src="https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0"
+								title="YouTube video player"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowFullScreen
+							></iframe>
 						</div>
 						<div className=" xl:pt-[24px] xl:gap-x-[20px]  lg:pt-[24px] lg:gap-x-[10px] md:pt-[24px] md:gap-x-[16px] flex justify-between items-center font-helvetica font-bold">
 							<div className=" ">

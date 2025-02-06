@@ -40,7 +40,7 @@ const WhyStudy = ({ countryName }) => {
 					<Link to="/studyDistention2">
 						<button
 							className="pl-[16px] pr-[11px] py-[11px] flex items-center justify-between
-          text-[18px] leading-[23px] bg-primaryColor/[.5] gap-x-[10px] text-white font-helvetica font-bold"
+          text-[18px] leading-[23px] bg-primaryColor gap-x-[10px] text-white font-helvetica font-bold"
 						>
 							Read More
 							<MdArrowRightAlt size={21} />

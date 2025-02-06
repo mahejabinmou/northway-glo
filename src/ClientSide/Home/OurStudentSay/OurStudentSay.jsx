@@ -77,7 +77,7 @@ const OurStudentSay = () => {
 
 			<div className="slider-container  ">
 				<Slider {...settings}>
-					<div className="  max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+					<div className="max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px] relative bg-white shadow-xl rounded-lg">
 						<FaQuoteLeft
 							className="absolute text-3xl mx-2 text-primaryColor pb-[20px]  bottom-0  top-[30px] 
             left-0"
@@ -106,7 +106,7 @@ const OurStudentSay = () => {
 						</div>
 					</div>
 
-					<div className=" max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+					<div className=" max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl rounded-lg">
 						<FaQuoteLeft
 							className="absolute text-3xl mx-2 text-primaryColor pb-[20px]  bottom-0  top-[30px] 
             left-0"
@@ -139,7 +139,7 @@ const OurStudentSay = () => {
 						</div>
 					</div>
 
-					<div className=" max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+					<div className=" max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl rounded-lg">
 						<FaQuoteLeft
 							className="absolute text-3xl mx-2 text-primaryColor pb-[20px]  bottom-0  top-[30px] 
             left-0"
@@ -167,7 +167,7 @@ const OurStudentSay = () => {
 							</div>
 						</div>
 					</div>
-					<div className=" max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+					<div className=" max-w-[95%] hover:border-primaryColor hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl rounded-lg">
 						<FaQuoteLeft
 							className="absolute text-3xl mx-2 text-primaryColor pb-[20px]  bottom-0  top-[30px] 
             left-0"

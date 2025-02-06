@@ -37,7 +37,7 @@ const Vision = () => {
 					}`}
 				>
 					<h1 className="chooseUsSamll text-right text-white">
-						<span className="text-[#ff9100]">Our</span> Vision
+						<span className="text-primaryColor">Our</span> Vision
 					</h1>
 					<p className="homePara pb-[25px] md:pb-[30px] lg:pb-[30px] xl:pb-[30px] text-white ">
 						Our long-term vision is to establish a globally connected

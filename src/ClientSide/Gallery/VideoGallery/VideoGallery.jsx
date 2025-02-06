@@ -6,16 +6,18 @@ const VideoGallery = () => {
 	const [showAll, setShowAll] = useState(false); // Step 1: state to toggle showing all images
 
 	const images = [
-		"https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0",
-		"https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0",
-		"https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0",
-		"https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0",
-		"https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0",
-		"https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0",
-		"https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0",
-		"https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0",
-		"https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0",
-		"https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
+		"https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0",
 
 		// Add more image URLs here
 	];
@@ -37,7 +39,7 @@ const VideoGallery = () => {
 				></div>
 
 				{/* Text Section */}
-				<div className="absolute inset-0 flex flex-col justify-center px-[20px] lg:px-[10vw]">
+				<div className="absolute inset-0 flex flex-col justify-center ml-[7vw]">
 					<h1 className="xs:text-5xl lg:text-[80px] text-black font-helvetica font-bold ">
 						<span className="text-primaryColor">Video</span> Gallery
 					</h1>
@@ -61,14 +63,12 @@ const VideoGallery = () => {
 						{visibleImages.map((image, index) => (
 							<div
 								key={index}
-								className="relative w-full h-[221px] overflow-hidden chooseUsImgParent"
-								style={{ paddingTop: "56.25%" }}
+								className="relative w-full aspect-video overflow-hidden rounded-md lg:rounded-lg"
 							>
 								<iframe
 									className="absolute top-0 left-0 w-full h-full"
 									src={image}
 									title="YouTube video player"
-									frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 									allowFullScreen
 								></iframe>

@@ -64,7 +64,7 @@ const PhotoGallery = () => {
 
 				{/* Text Section */}
 
-				<div className="absolute inset-0 flex flex-col justify-center px-[20px] lg:px-[10vw]">
+				<div className="absolute inset-0 flex flex-col justify-center ml-[7vw]">
 					<h1 className="xs:text-[45px]  lg:text-[80px] text-black font-helvetica font-bold">
 						<span className="text-primaryColor">Photo</span> Gallery
 					</h1>
@@ -80,7 +80,7 @@ const PhotoGallery = () => {
               lg:gap-[24px]  md:gap-[24px] gap-x-0 gap-y-[24px]"
 					>
 						{visibleImages.map((image, index) => (
-							<div key={index} className="h-[200px]  2xl:h-[300px] x">
+							<div key={index} className="aspect-video">
 								<LazyLoadImage
 									className="h-full w-full"
 									src={image}

@@ -134,7 +134,7 @@ const HeroSection = () => {
 						<button
 							className="homeLargeAppoinMent flex items-center  justify-between
           gap-x-[10px]  
-           bg-primaryColor px-[16px] py-[11.5px] "
+           bg-primaryColor/[.80] px-[16px] py-[11.5px] "
 						>
 							<span className="">Start Your Journey</span> <MdArrowRightAlt />
 						</button>
@@ -269,7 +269,7 @@ const HeroSection = () => {
 							You.
 						</p>
 						<Link to="/studyDistentionFlag">
-							<button className="homeButton flex items-center justify-between bg-primaryColor">
+							<button className="homeButton flex items-center justify-between bg-primaryColor/[.80]">
 								Start Your Journey <MdArrowRightAlt />
 							</button>
 						</Link>

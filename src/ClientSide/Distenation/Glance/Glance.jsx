@@ -44,16 +44,16 @@ const Glance = ({ countryName }) => {
 	};
 
 	return (
-		<div className=" ">
+		<div className="sectionGap">
 			<h1
 				className="font-bold lg:text-[48px] lg:leading-[57px]
-                font-helvetica text-[30px] leading-[36px] text-[#1E1E1E] text-center sectionGap
+                font-helvetica text-[30px] leading-[36px] text-[#1E1E1E] text-center
                   
                 "
 			>
 				<span className="text-primaryColor ">{countryName}</span> At a Glance
 			</h1>
-			<div className="overflow-x-auto   bg-[#FFF8E5] sectionGap">
+			<div className="overflow-x-auto bg-[#FFF9F3] mt-10 p-10">
 				<table className="min-w-full  table-auto border-collapse">
 					<thead className="border-b">
 						<tr>

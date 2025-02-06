@@ -23,7 +23,7 @@ const Footer = () => {
 	);
 	return (
 		// bg-[#1E1E1E]
-		<div className=" bg-primaryColor/[.25] text-black sectionGap relative">
+		<div className=" bg-[#FFF9F3] text-black sectionGap relative">
 			{/* foooter content */}
 			<div className=" pt-[50px]">
 				{/* mobile */}
@@ -367,7 +367,7 @@ const Footer = () => {
 
 									<p className="flex items-start gap-x-[5px] lg:pt-5 xl:pt-0">
 										<LazyLoadImage
-											className="h-[20px] w-[22px] object-cover"
+											className="h-[20px] w-[22px] object-cover mt-1"
 											src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
 											alt=""
 										/>
@@ -400,7 +400,7 @@ const Footer = () => {
 									</p>
 									<p className="flex items-start gap-x-[5px] lg:pt-5 xl:pt-0">
 										<LazyLoadImage
-											className="h-[20px] w-[22px] object-cover"
+											className="h-[20px] w-[22px] object-cover mt-1"
 											src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
 											alt=""
 										/>
@@ -432,7 +432,7 @@ const Footer = () => {
 									</p>
 									<p className="flex items-start gap-x-[5px] lg:pt-5 xl:pt-0">
 										<LazyLoadImage
-											className="h-[20px] w-[22px] object-cover"
+											className="h-[20px] w-[22px] object-cover mt-1"
 											src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
 											alt=""
 										/>
@@ -453,7 +453,7 @@ const Footer = () => {
 							<div className=" ">
 								<p className="footerMenuText flex  gap-x-[10px] md:pt-5 lg:pt-2 xl:pt-0">
 									<LazyLoadImage
-										className="h-[16px] w-[20px] "
+										className="h-[16px] w-[20px] mt-1"
 										src="https://i.ibb.co/tKvY3Q7/group-2-66d945163a8b4.webp"
 										alt=""
 									/>
