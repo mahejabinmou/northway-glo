@@ -37,14 +37,14 @@ const Blogs = () => {
 				></div>
 
 				{/* Text Section */}
-				<div className="absolute inset-0 flex flex-col  justify-center px-[20px] lg:px-[10vw]">
+				<div className="absolute inset-0 flex flex-col  justify-center ml-[7vw]">
 					<h1 className="xs:text-5xl lg:text-[80px] text-black font-helvetica font-bold">
 						<span className="text-primaryColor">Blogs</span>
 					</h1>
 				</div>
 			</div>
 
-			<div className="sectionGap  px-[10vw]">
+			<div className="sectionGap">
 				<div className="">
 					<div
 						className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 justify-center items-center

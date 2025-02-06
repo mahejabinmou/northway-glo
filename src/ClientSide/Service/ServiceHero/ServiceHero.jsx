@@ -11,7 +11,7 @@ const ServiceHero = () => {
 			></div>
 
 			{/* Text Section */}
-			<div className="absolute inset-0 flex flex-col  justify-center px-[20px] lg:px-[10vw]">
+			<div className="absolute inset-0 flex flex-col  justify-center ml-[7vw]">
 				<h1 className="xs:text-5xl lg:text-[80px] text-black font-helvetica font-bold ">
 					<span className="text-primaryColor">Service</span>
 				</h1>

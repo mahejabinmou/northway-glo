@@ -112,35 +112,50 @@ const Topbar = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<FaFacebookF size={20} className="footerSocailIcon" />
+									<FaFacebookF
+										size={20}
+										className="footerSocailIcon fill-primaryColor"
+									/>
 								</a>
 								<a
 									href="https://www.instagram.com/northwayglobal"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<FaInstagram size={20} className="footerSocailIcon " />
+									<FaInstagram
+										size={20}
+										className="footerSocailIcon fill-primaryColor "
+									/>
 								</a>
 								<a
 									href="https://www.linkedin.com/in/northwayglobal/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<FaLinkedinIn size={20} className="footerSocailIcon " />
+									<FaLinkedinIn
+										size={20}
+										className="footerSocailIcon fill-primaryColor "
+									/>
 								</a>
 								<a
 									href="https://x.com/northwayglobalx"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<FaXTwitter size={20} className="footerSocailIcon" />
+									<FaXTwitter
+										size={20}
+										className="footerSocailIcon fill-primaryColor"
+									/>
 								</a>
 								<a
 									href="https://x.com/northwayglobalx"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<FiYoutube size={20} className="footerSocailIcon" />
+									<FiYoutube
+										size={20}
+										className="footerSocailIcon fill-primaryColor"
+									/>
 								</a>
 
 								<a
@@ -148,7 +163,10 @@ const Topbar = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<AiOutlineTikTok size={20} className="footerSocailIcon" />
+									<AiOutlineTikTok
+										size={20}
+										className="footerSocailIcon fill-primaryColor"
+									/>
 								</a>
 
 								<a
@@ -156,7 +174,10 @@ const Topbar = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<FaWhatsapp size={20} className="footerSocailIcon" />
+									<FaWhatsapp
+										size={20}
+										className="footerSocailIcon fill-primaryColor"
+									/>
 								</a>
 							</div>
 						</div>

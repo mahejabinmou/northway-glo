@@ -75,9 +75,9 @@ const WhoAreU = () => {
 					</h1>
 
 					<p className="homePara text-black/[0.8] pb-[25px]">
-						Discover the game-changer for Canadian Institutes: Edu Mandate! Our
-						Indian-rooted strategy connects institutes with top agencies, fueled
-						by human interaction and relentless expansion. With tailored
+						Discover the game-changer for Canadian Institutes: Northway Global!
+						Our Indian-rooted strategy connects institutes with top agencies,
+						fueled by human interaction and relentless expansion. With tailored
 						support, unleash your potential and soar to new heights. Embrace
 						excellence, partner with us, and embark on a transformative journey
 						towards success. Contact us now!
@@ -137,11 +137,11 @@ const WhoAreU = () => {
 						</h1>
 
 						<p className="homePara  pb-[25px] md:pb-[30px] lg:pb-[30px] xl:pb-[30px] text-[#1E1E1E]/[0.8]">
-							Discover the game-changer for Canadian Institutes: Edu Mandate!
-							Our Indian-rooted strategy connects institutes with top agencies,
-							fueled by human interaction and relentless expansion. With
-							tailored support, unleash your potential and soar to new heights.
-							Embrace excellence, partner with us, and embark on a
+							Discover the game-changer for Canadian Institutes: Northway
+							Global! Our Indian-rooted strategy connects institutes with top
+							agencies, fueled by human interaction and relentless expansion.
+							With tailored support, unleash your potential and soar to new
+							heights. Embrace excellence, partner with us, and embark on a
 							transformative journey towards success. Contact us now!
 						</p>
 						<ul

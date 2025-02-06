@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -46,10 +47,10 @@ function ContactForm({ selectedOffice }) {
 	];
 
 	return (
-		<div className="flex flex-col-reverse  md:flex-row justify-center items-center sectionGap gap-[68px]">
+		<div className="flex flex-col-reverse  md:flex-row justify-center items-center gap-x-[90px]">
 			<form
 				onSubmit={handleSubmit}
-				className="bg-white max-w-[614px] w-full md:w-1/2 p-4 shadow-formShadow rounded-md"
+				className="bg-white w-full md:w-2/3 p-10 shadow-formShadow rounded-md"
 			>
 				<div className="mb-4">
 					<label
@@ -127,7 +128,7 @@ function ContactForm({ selectedOffice }) {
 
 				<button
 					type="submit"
-					className="px-5 py-[10px] bg-primaryColor font-helvetica font-bold text-white p-2 hover:bg-[#f6951ec0] transition"
+					className="px-5 py-[10px] bg-primaryColor font-helvetica font-bold text-white p-2 hover:bg-[#f6951ec0] transition rounded-lg"
 				>
 					Submit
 				</button>
@@ -135,11 +136,12 @@ function ContactForm({ selectedOffice }) {
 
 			<div>
 				<div>
-					<h4 className="lg:text-[36px] lg:leading-[43.2px] font-bold font-helvetica">
-						Contact Us
+					<h4 className="lg:text-[36px] lg:leading-[43.2px] font-bold font-helvetica text-gray-800">
+						<span className="text-primaryColor">Contact</span> Us
 					</h4>
 					<p className="text-[#1E1E1E]/[.8] mt-[14px] mb-[30px] font-normal text-[16px] leading-[24px]">
-						Get in touch today to learn how Edu Mandate can help your business.
+						Get in touch today to learn how Northway Global can help your
+						business.
 					</p>
 				</div>
 				<div>

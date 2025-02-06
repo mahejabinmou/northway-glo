@@ -44,7 +44,7 @@ const OurOffices = () => {
 
 	return (
 		<>
-			<div className="sectionGap px-[10vw]">
+			<div className="sectionGap">
 				<div className="mb-[30px]">
 					<h2 className="text-[48px]  leading-[120%] text-center font-helvetica font-bold">
 						Our <span className="text-primaryColor">Offices</span>
@@ -58,8 +58,7 @@ const OurOffices = () => {
 							onMouseEnter={() => handleMouseEnter(office.name)}
 							onMouseLeave={handleMouseLeave}
 							onClick={() => handleOfficeClick(office)}
-							className={`py-[90px] px-[100px] flex items-center justify-center gap-[20px] shadow-officeShadow transition-all duration-300 cursor-pointer hover:bg-primaryColor/[.75]
-          bg-white`}
+							className={`py-[90px] px-[100px] flex items-center justify-center gap-[20px] shadow-officeShadow transition-all duration-300 cursor-pointer hover:bg-[#FFF9F3] bg-white rounded-lg`}
 						>
 							<div className="flex text-[30px] items-center justify-center gap-[20px]">
 								<LazyLoadImage
@@ -67,15 +66,19 @@ const OurOffices = () => {
 									src={office.flag}
 									alt={`Flag of ${office.name}`}
 								/>
-								<p className="font-helvetica font-bold">{office.name}</p>
+								<p className="font-helvetica font-bold text-gray-700">
+									{office.name}
+								</p>
 							</div>
 						</div>
 					))}
 				</div>
 			</div>
 
-			{/* Pass the selected office data to the ContactForm component */}
-			<ContactForm selectedOffice={selectedOffice} />
+			<div className="sectionGap">
+				{/* Pass the selected office data to the ContactForm component */}
+				<ContactForm selectedOffice={selectedOffice} />
+			</div>
 		</>
 	);
 };

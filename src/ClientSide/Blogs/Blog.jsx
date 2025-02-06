@@ -43,10 +43,10 @@ const Blog = () => {
 		);
 	return (
 		<>
-			<div className="bg-black min-h-screen text-white ">
+			<div className="GlobalBg min-h-screen text-black ">
 				{/* <Navbar /> */}
 
-				<div className=" pb-10 pt-[100px] ">
+				<div className=" py-10 ">
 					<div className="  sectionGap">
 						<p>Published on {data?.date}</p>
 						<h1 className="text-[20px] md:text-[50px] font-bold ">

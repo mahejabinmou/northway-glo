@@ -1,18 +1,14 @@
-import { useState } from "react";
 import CountUp from "react-countup";
 import { MdArrowRightAlt } from "react-icons/md";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 
 const About = () => {
-	const [showVideo, setShowVideo] = useState(false);
-
 	return (
 		<div className="">
 			{/* mobile */}
 			<div className="chooseUsParent mt-[50px] px-[16px] md:hidden block ">
 				<div>
-					<div className="relative w-full overflow-hidden h-full chooseUsImgParent">
+					<div className="relative w-full overflow-hidden  chooseUsImgParent">
 						<iframe
 							className="absolute top-0 left-0 w-full h-full"
 							src="https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0"
@@ -77,9 +73,9 @@ const About = () => {
 					</h1>
 
 					<p className="homePara text-black/[0.8] pb-[25px]">
-						Discover the game-changer for Canadian Institutes: Edu Mandate! Our
-						Indian-rooted strategy connects institutes with top agencies, fueled
-						by human interaction and relentless expansion. With tailored
+						Discover the game-changer for Canadian Institutes: Northway Global!
+						Our Indian-rooted strategy connects institutes with top agencies,
+						fueled by human interaction and relentless expansion. With tailored
 						support, unleash your potential and soar to new heights. Embrace
 						excellence, partner with us, and embark on a transformative journey
 						towards success. Contact us now!
@@ -107,7 +103,7 @@ const About = () => {
 						<div className="relative w-full overflow-hidden chooseUsImgParent">
 							<iframe
 								loading="lazy"
-								className="absolute top-5 left-0 w-full aspect-video"
+								className="absolute top-3 left-0 w-full aspect-video"
 								src="https://player.vimeo.com/video/1054041163?h=5cf8e371e8&title=0&byline=0&portrait=0&badge=0&autoplay=0&controls=1&dnt=1&loop=0"
 								title="YouTube video player"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -142,11 +138,11 @@ const About = () => {
 						</h1>
 
 						<p className="homePara  pb-[25px] md:pb-[30px] lg:pb-[30px] xl:pb-[30px] text-[#1E1E1E]/[0.8]">
-							Discover the game-changer for Canadian Institutes: Edu Mandate!
-							Our Indian-rooted strategy connects institutes with top agencies,
-							fueled by human interaction and relentless expansion. With
-							tailored support, unleash your potential and soar to new heights.
-							Embrace excellence, partner with us, and embark on a
+							Discover the game-changer for Canadian Institutes: Northway
+							Global! Our Indian-rooted strategy connects institutes with top
+							agencies, fueled by human interaction and relentless expansion.
+							With tailored support, unleash your potential and soar to new
+							heights. Embrace excellence, partner with us, and embark on a
 							transformative journey towards success. Contact us now!
 						</p>
 						<ul
